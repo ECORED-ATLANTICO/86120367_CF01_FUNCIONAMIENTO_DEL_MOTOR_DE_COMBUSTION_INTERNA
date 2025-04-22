@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Funcionamiento del bloque motor: cilindros y alojamientos de pistones',
+    Description:
+      'Este componente formativo aborda fundamentos teóricos y prácticos del funcionamiento del bloque motor, cilindros y alojamientos de pistones. Explora su estructura, materiales, métodos de rectificación y ajuste de holguras, destacando el impacto en rendimiento y durabilidad. Además, analiza camisas secas y húmedas, así como técnicas de mantenimiento',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +14,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
