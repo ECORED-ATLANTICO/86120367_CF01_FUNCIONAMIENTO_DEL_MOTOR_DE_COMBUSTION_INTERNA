@@ -41,28 +41,123 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'El bloque de cilindros',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Definición y función del bloque de cilindros',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Materiales y construcción del bloque de cilindros',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Fallas comunes en el bloque de cilindros y su diagnóstico',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Camisas de cilindros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de camisas de cilindro',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Métodos de inspección y mantenimiento de camisas de cilindro',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Procesos de rectificación en motores',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto y objetivos de la rectificación',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Herramientas y equipos utilizados en la rectificación',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Etapas del proceso de rectificación',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Armado de pistones dentro del cilindro',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Componentes del pistón y su función',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Proceso de ensamblaje de pistones y bielas',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Métodos de instalación y ajuste de pistones',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Pruebas de verificación del ensamblaje',
+            hash: 't_4_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Alojamiento del eje de levas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Función y tipos de ejes de levas',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Procedimiento para el montaje del eje de levas',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Ajuste y calibración del eje de levas',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Diagnóstico y corrección de fallas en el eje de levas',
+            hash: 't_5_4',
+          },
+        ],
       },
     ],
     subMenu: [
