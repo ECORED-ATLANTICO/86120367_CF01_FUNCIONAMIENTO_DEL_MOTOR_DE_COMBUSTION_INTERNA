@@ -64,14 +64,29 @@
 figcaption
   font-weight: normal
 
-.fullwith-bg1
+.fullwith-bg
   position: relative
   z-index: 0
-  &::after
-    content: url('../assets/curso/temas/tema1/bg-1.png')
+  &--1::after
     position: absolute
     top: -50px
     left: -55px
+    content: url('../assets/curso/temas/tema1/bg-1.png')
+  &--2::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema1/bg-2.png')
+  &--3::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema1/bg-3.png')
+  &--4::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema1/bg-4.png')
 
 .z-10
   position: relative
