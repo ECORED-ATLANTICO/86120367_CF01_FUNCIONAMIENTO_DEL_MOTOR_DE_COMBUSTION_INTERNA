@@ -10,12 +10,13 @@
     figure
       img(src='@/assets/curso/temas/tema1/1.png', alt='Ilustración decorativa')
 
+    .fullwith-bg.fullwith-bg--1.d-none.d-xl-block
     Separador
 
-    #t_1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+    #t_1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 1.1	Definición y función del bloque de cilindros
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-10
       .col-10.col-lg-5.col-xl-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema1/2.png', alt='Imagen decorativa')(data-aos="fade-up")
@@ -24,7 +25,6 @@
         .cajon.color-acento-contenido-ac10.p-4
           p.mb-0 El bloque de cilindros también cumple la función de distribuir las intensas fuerzas generadas durante la combustión, actuando como un elemento de rigidez que preserva la integridad mecánica del motor. Internamente, incorpora conductos diseñados para la circulación del aceite lubricante, crucial para la reducción de la fricción entre las partes móviles, y para el flujo del refrigerante, esencial para la regulación de la temperatura de funcionamiento del motor y la prevención del sobrecalentamiento. Asimismo, la superficie externa del bloque sirve como punto de anclaje para diversos componentes auxiliares de importancia vital, tales como la bomba de agua, la bomba de aceite, el alternador y los soportes del motor (SENA, 2012). En esencia, la solidez y la precisión del bloque de cilindros son indispensables para la operación eficiente del motor y su capacidad para resistir las exigencias de su funcionamiento.
 
-    .fullwith-bg.fullwith-bg--1.d-none.d-xl-block
     .row.justify-content-center.align-items-center.z-10
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
@@ -98,8 +98,8 @@
                   img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
               .col-7
                 p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
-
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5
+    .fullwith-bg.fullwith-bg--2.d-none.d-xl-block
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5.z-10
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/10.png')})`}"
       )
@@ -115,7 +115,6 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/11.png", alt="Motor")
         figcaption Fuente SENA 2025
 
-    .fullwith-bg.fullwith-bg--2.d-none.d-xl-block
     .d-block.my-3
       <br>
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
@@ -150,11 +149,11 @@
     Separador
 
     .fullwith-bg.fullwith-bg--3.d-none.d-xl-block
-    #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+    #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 1.3	Fallas comunes en el bloque de cilindros y su diagnóstico
 
-    p A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
-    p Algunas de las fallas y métodos de detección incluyen:
+    p.z-10 A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
+    p.z-10 Algunas de las fallas y métodos de detección incluyen:
 
     .row.z-10.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-tarjetas-gris
       .col-md-4
@@ -162,24 +161,21 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h4.mb-4.mt-5 Grietas por fatiga térmica 
+              h4.mb-4.mt-5.tarjeta-flip-title Grietas por fatiga térmica 
               p.mb-4 <strong>Causa:</strong> ciclos repetidos de calentamiento/enfriamiento. 
               p.mb-4 <strong>Diagnóstico:</strong> líquidos penetrantes fluorescentes o termografía infrarroja. 
 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/13.png')})`}")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/13.jpg')})`}")
 
       .col-md-4
         .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.png')})`}")
+            .tarjeta-slide__img.tarjeta-slide__img--right(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
               h4.mb-4.mt-5.tarjeta-flip-title Deformación de bancadas 
               p.mb-4 <strong>Síntoma:</strong> desalineación >0.1 mm en soportes de cigüeñal. 
               p.mb-4 <strong>Verificación:</strong> uso de regla de precisión clase 0 (±0.02 mm). 
 
-
-
-    .fullwith-bg.fullwith-bg--4.d-none.d-xl-block
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
