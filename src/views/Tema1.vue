@@ -156,6 +156,29 @@
     p A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
     p Algunas de las fallas y métodos de detección incluyen:
 
+    .row.z-10.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-tarjetas-gris
+      .col-md-4
+        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5.text-center
+              h4.mb-4.mt-5 Grietas por fatiga térmica 
+              p.mb-4 <strong>Causa:</strong> ciclos repetidos de calentamiento/enfriamiento. 
+              p.mb-4 <strong>Diagnóstico:</strong> líquidos penetrantes fluorescentes o termografía infrarroja. 
+
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/13.png')})`}")
+
+      .col-md-4
+        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5.text-center
+              h4.mb-4.mt-5.tarjeta-flip-title Deformación de bancadas 
+              p.mb-4 <strong>Síntoma:</strong> desalineación >0.1 mm en soportes de cigüeñal. 
+              p.mb-4 <strong>Verificación:</strong> uso de regla de precisión clase 0 (±0.02 mm). 
+
+
+
     .fullwith-bg.fullwith-bg--4.d-none.d-xl-block
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8

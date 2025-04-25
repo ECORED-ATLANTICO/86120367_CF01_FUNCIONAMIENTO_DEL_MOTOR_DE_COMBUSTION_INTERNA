@@ -112,3 +112,18 @@ figcaption
 
   .img-infografica__item
     width: 5%
+
+.bg-tarjetas-gris
+  position: relative
+  &::after
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    content: url('../assets/curso/temas/tema1/bg-gris.png')
+    z-index: -1
+
+.tarjeta-flip-title
+  background-color: #D9BBA9
+  display: inline-block
+  padding: 5px 20px
