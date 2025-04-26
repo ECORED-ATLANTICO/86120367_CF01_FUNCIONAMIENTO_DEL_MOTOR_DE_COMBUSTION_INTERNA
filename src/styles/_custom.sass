@@ -82,10 +82,26 @@ figcaption
     top: -50px
     left: -55px
     content: url('../assets/curso/temas/tema1/bg-3.png')
+  &--4::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema2/bg-1.png')
+  &--5::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema2/bg-2.png')
+  &--6::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema2/bg-3.png')
 
-.z-10
-  position: relative
-  z-index: 10
+@media (min-width: 1090px)
+  .z-10
+    position: relative
+    z-index: 10
 
 .time-line-info
   .tarjeta
@@ -124,3 +140,50 @@ figcaption
   padding: 5px 20px
   &--right
     background-position: right
+
+.banner-text
+  background-color: #D9EBE8
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -40px
+
+.motor-title
+  font-size: 16px
+  position: relative
+  display: inline-block
+  padding: 32px 30px 32px 100px
+  background-repeat: no-repeat
+  background-position: left center
+  &--1
+    background-image: url('../assets/curso/temas/title-icon.svg')
+
+@media (min-width: 992px)
+  .motor-title
+    font-size: 20px
+
+.pills
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 18px 20px
+  background-color: #EFE4DC
+  border-radius: 25px
+  gap: 23px
+  &__img
+    width: 68px
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt 
+  background-color: #45CEB3
+  border: none
+  opacity: 1
+  background-image: url('../assets/bullets/arrow-white.svg')
+  &:hover
+    box-shadow: none
+
+.slyder-a__bullets__item
+  background-color: #D9BBA9
+  opacity: 0.4
+  &--active
+    background-color: #D9BBA9
+    border-color: #D9BBA9
+    opacity: 1

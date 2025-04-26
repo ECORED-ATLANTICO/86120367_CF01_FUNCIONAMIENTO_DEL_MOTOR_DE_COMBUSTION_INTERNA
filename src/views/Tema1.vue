@@ -152,8 +152,10 @@
     #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 1.3	Fallas comunes en el bloque de cilindros y su diagnóstico
 
-    p.z-10 A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
-    p.z-10 Algunas de las fallas y métodos de detección incluyen:
+    p.z-10
+     A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
+    p.z-10
+     Algunas de las fallas y métodos de detección incluyen:
 
     .row.z-10.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-tarjetas-gris
       .col-md-4
