@@ -25,7 +25,7 @@
           img(src='@/assets/curso/temas/tema3/2.png', alt='Ilustración decorativa')
 
     .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -36,7 +36,7 @@
                 img(src='@/assets/curso/temas/tema3/3.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Una superficie de cilindro uniforme permite que los anillos del pistón sellen correctamente, evitando pérdidas de compresión que afecten la potencia y eficiencia.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -47,7 +47,7 @@
                 img(src='@/assets/curso/temas/tema3/4.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Una superficie lisa facilita el correcto asentamiento de los anillos, previniendo fugas de gases y el ingreso de aceite.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -58,7 +58,7 @@
                 img(src='@/assets/curso/temas/tema3/5.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 el proceso de bruñido posterior genera microsurcos que retienen una fina capa de aceite, reduciendo la fricción y prolongando la vida de los componentes.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -69,7 +69,7 @@
                 img(src='@/assets/curso/temas/tema3/6.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Se suprimen rayaduras, ovalamientos y conicidades, garantizando la uniformidad del cilindro.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -100,7 +100,7 @@
 
     .fullwith-bg.fullwith-bg--8.d-none.d-xl-block
     .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -111,7 +111,7 @@
                 img(src='@/assets/curso/temas/tema3/9.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Máquina principal que, mediante una herramienta de corte rotativa, remueve material de la pared interna hasta alcanzar la dimensión deseada. Existen modelos manuales y de Control Numérico Computarizado (CNC) (SENA, 2012).
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -122,11 +122,11 @@
                 img(src='@/assets/curso/temas/tema3/10.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Instrumentos esenciales para medir el diámetro interior del cilindro antes, durante y después del mecanizado, asegurando que se cumplan las tolerancias de fabricación.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
-              h5.mb-0 o	Bruñidora
+              h5.mb-0 Bruñidora
           .bicolor-card__content
             .bicolor-card__img
               figure
@@ -151,7 +151,7 @@
         p Antes de cualquier intervención, se debe desmontar cuidadosamente el bloque del motor y realizar una limpieza exhaustiva de la zona de los cilindros. Esta etapa inicial es fundamental para una correcta evaluación del estado de los cilindros (Procedimiento de rectificación, sf).
 
     .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-md-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -162,7 +162,7 @@
                 img(src='@/assets/curso/temas/tema3/13.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Se retiran cuidadosamente los componentes que impiden la inspección y el mecanizado, como pistones, bielas y pernos de bancada.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-md-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -173,7 +173,7 @@
                 img(src='@/assets/curso/temas/tema3/14.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 La superficie del cilindro se limpia con solventes y cepillos no abrasivos para eliminar residuos de aceite, carbón o refrigerante.
-      .col-sm-6.col-lg-4.mb-4
+      .col-sm-6.col-md-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -185,7 +185,6 @@
             .bicolor-card__text
               p.mb-0 Se evalúa el estado del cilindro, identificando rayaduras profundas, picaduras u otras anomalías en la zona crítica de los anillos.
 
-
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
@@ -193,6 +192,44 @@
           span Bloque motor en etapa de inspección previa.
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/16.png", alt="Bloque motor en etapa de inspección previa")
         figcaption <strong>Fuente.</strong> SENA 2025
+
+    h3(data-aos='zoom-in-right').mb-4.z-10
+      span.motor-title.motor-title--small Medición y análisis de desgaste
+
+    .fullwith-bg.fullwith-bg--9.d-none.d-xl-block
+    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+      .col-xl-3.d-none.d-xl-block
+        figure
+          img(src='@/assets/curso/temas/tema3/17.png', alt='Ilustración decorativa')
+
+      .col-xl-9
+        p Una vez que el bloque ha sido desmontado y limpiado, es momento de realizar una medición exhaustiva de los cilindros para determinar la magnitud y la forma del desgaste (SENA, 2012). El procedimiento estándar incluye:
+
+        .row.justify-content-center
+          .col-10.col-md-6.col-lg-4.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/temas/tema3/18.jpg", alt="Medición del diámetro del cilindro")
+              .crd_hover_txt--body.text-center
+                h5.mb-3 Medición del diámetro del cilindro
+                p.mb-0 Se utilizan micrómetro y comparador en puntos estratégicos (superior, medio e inferior) y en orientaciones perpendiculares para determinar la uniformidad.
+          .col-10.col-md-6.col-lg-4.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/temas/tema3/19.jpg", alt="Análisis del desgaste")
+              .crd_hover_txt--body.text-center
+                h5.mb-3 Análisis del desgaste
+                p.mb-0 Se compara la medición obtenida con las especificaciones del fabricante, identificando conicidad y ovalamiento. Se determina la cantidad de material a remover.
+          .col-10.col-md-6.col-lg-4.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/temas/tema3/20.jpg", alt="Selección de la sobremedida")
+              .crd_hover_txt--body.text-center
+                h5.mb-3 Selección de la sobremedida
+                p.mb-0 según el análisis, se define la sobremedida (incrementos comunes de 0,25 mm, 0,50 mm, 0,75 mm o 1,00 mm) que permita eliminar imperfecciones sin comprometer la integridad de la pared.
 
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
@@ -202,6 +239,92 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/21.png", alt="Puntos de medición de diámetro interior en cilindro")
         figcaption <strong>Fuente.</strong> SENA 2025
 
+    h3(data-aos='zoom-in-right').mb-4.z-10
+      span.motor-title.motor-title--1 Técnicas de rectificación y reacondicionamiento
+
+    .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
+      .col-sm-6.col-md-5.col-xl-4.mb-4
+        .bicolor-card
+          .bicolor-card__header
+            .bicolor-card__title
+              h5.mb-0 Rectificado <em>(Boring)</em>
+          .bicolor-card__content
+            .bicolor-card__img.pt-4
+              figure
+                img(src='@/assets/curso/temas/tema3/22.svg', alt='Ilustración decorativa')
+            .bicolor-card__text
+              p.mb-0 La rectificadora remueve capas de material en pasadas sucesivas para alcanzar la sobremedida seleccionada. Es fundamental garantizar la alineación correcta del bloque para mantener la perpendicularidad del cilindro.
+      .col-sm-6.col-md-5.col-xl-4.mb-4
+        .bicolor-card
+          .bicolor-card__header
+            .bicolor-card__title
+              h5.mb-0 Bruñido <em>(Honing)</em>
+          .bicolor-card__content
+            .bicolor-card__img.pt-4
+              figure
+                img(src='@/assets/curso/temas/tema3/23.svg', alt='Ilustración decorativa')
+            .bicolor-card__text
+              p.mb-0 Posterior al rectificado, se emplea la bruñidora para generar microsurcos cruzados en la superficie. Estos surcos mejoran la retención de aceite, disminuyendo la fricción y optimizando el sellado.
+
+    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+      .col-lg-7
+        p.mb-lg-0 La rectificación es un proceso mecánico que consiste en restaurar las superficies de las piezas del motor que han sufrido desgaste o deformación debido al uso. Se realiza en componentes clave como los cilindros, el cigüeñal, la culata y las válvulas. Este proceso sirve para recupera la geometría original de las piezas del motor; elimina deformaciones y desgastes, permitiendo un mejor sellado y ajuste; mejora la eficiencia y el rendimiento del motor, reduciendo el consumo de aceite y combustible; y por último prolonga la vida útil del motor al devolverle sus especificaciones originales.
+      .col-lg-5.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema3/24.png', alt='Ilustración decorativa')
+
+    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+      .col-10.col-lg-8
+        ImagenInfografica.color-terciario.time-line-info
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/25.png', alt='Motor de combustión interna')
+
+          .tarjeta.color-primario-p10.p-4(x="80%" y="20%" numero="01")
+            .time-line-info__number
+              span 01
+            .h5.mb-4 Bloque de hierro fundido
+            .row.justify-content-center.align-items-center
+              .col-5
+                figure
+                  img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen decorativa')
+              .col-7
+                p El bloque de hierro fundido es una estructura resistente y duradera del motor, diseñada para alojar los cilindros y otros componentes. Ofrece alta rigidez y excelente capacidad de disipación térmica, pero es más pesado que el aluminio.
+
+          .tarjeta.color-primario-p10.p-4(x="85%" y="60%" numero="02")
+            .time-line-info__number
+              span 02
+            .h5.mb-4 Bloques del motor de aleación de metal ligero
+            .row.justify-content-center.align-items-center
+              .col-5
+                figure
+                  img(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
+              .col-7
+                p El bloque de motor en aleación de metal ligero, generalmente de aluminio, es más liviano que el de hierro fundido, mejorando la eficiencia y el rendimiento. Ofrece buena disipación térmica y resistencia a la corrosión, aunque requiere refuerzos para igualar la durabilidad.
+
+          .tarjeta.color-primario-p10.p-4(x="40%" y="10%" numero="03")
+            .time-line-info__number
+              span 03
+            .h5.mb-4 Composición <em>del bloque de cilindros</em>
+            .row.justify-content-center.align-items-center
+              .col-5
+                figure
+                  img(src='@/assets/curso/temas/tema1/8.png', alt='Imagen decorativa')
+              .col-7
+                p Las partes principales de un bloque de motor incluyen: cilindros, donde se mueven los pistones; camisa de agua, para disipar el calor; galería de aceite, que lubrican las piezas móviles; rodamiento del cigüeñal, que convierte el movimiento lineal en rotativo; bielas, que conectan los pistones con el cigüeñal; y tapa del bloque, que sella y protege los componentes internos.
+
+          .tarjeta.color-primario-p10.p-4(x="30%" y="30%" numero="04")
+            .time-line-info__number
+              span 04
+            .h5.mb-4 Cilindros en el mismo bloque
+            .row.justify-content-center.align-items-center
+              .col-5
+                figure
+                  img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
+              .col-7
+                p Los cilindros son elementos fundamentales
+
+
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
@@ -210,6 +333,9 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/26.jpg", alt="Puntos de medición de diámetro interior en cilindro")
         figcaption <strong>Fuente.</strong> SENA 2025
 
+
+
+    
 
 </template>
 

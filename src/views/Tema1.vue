@@ -98,6 +98,7 @@
                   img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
               .col-7
                 p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
+                
     .fullwith-bg.fullwith-bg--2.d-none.d-xl-block
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5.z-10
       .bloque-texto-g__img(
