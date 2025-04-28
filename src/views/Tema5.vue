@@ -160,7 +160,22 @@
     #t_5_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 5.3.	Ajuste y calibración del eje de levas
 
-    p Posterior al montaje se realizan ajustes para asegurar un funcionamiento óptimo:
+    p.mb-5 Posterior al montaje se realizan ajustes para asegurar un funcionamiento óptimo:
+
+
+    .row.justify-content-center.align-items-stretch.z-10.custom-cards
+      .col-md-6.col-lg-4.col-xl-3.mb-5
+        .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--1
+          h5.text-center.my-5 Verificación del juego axial:
+          p.mb-0.text-center.mb-4 Con un reloj comparador se mide el movimiento longitudinal del eje, asegurando que se encuentre dentro de las tolerancias.
+      .col-md-6.col-lg-4.col-xl-3.mb-5
+        .custom-cards__cards.bg-primario-20.custom-cards__cards--2
+          h5.text-center.my-5 Ajuste del juego de válvulas: 
+          p.mb-0.text-center.mb-4 Se regula el espacio entre los seguidores y las válvulas utilizando tornillos de ajuste, calzas o taqués hidráulicos.
+      .col-md-6.col-lg-4.col-xl-3.mb-5
+        .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--3
+          h5.text-center.my-5 Verificación de la sincronización: 
+          p.mb-0.text-center.mb-4 Se comprueba el ángulo de apertura de las válvulas respecto al cigüeñal, utilizando herramientas de precisión o software especializado.
 
     Separador
 

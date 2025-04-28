@@ -287,7 +287,7 @@ figcaption
     padding: 30px
     height: 100%
 
-.factores-slider
+.factores-slider, .custom-cards
   &__tarjeta
     border-radius: 14px
     box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1)
@@ -336,3 +336,34 @@ figcaption
       margin-left: 20px
     &.pe-3
       margin-right: 20px
+
+
+.custom-cards
+  &__cards
+    border-radius: 21px
+    position: relative
+    overflow: visible
+    padding: 80px 20px 30px
+    height: 100%
+    &--1::before
+      position: absolute
+      content: url('../assets/curso/temas/tema5/14.svg')
+      top: -25px
+      left: 50%
+      transform: translateX(-50%)
+    &--2::before
+      position: absolute
+      content: url('../assets/curso/temas/tema5/15.svg')
+      top: -25px
+      left: 50%
+      transform: translateX(-50%)
+    &--3::before
+      position: absolute
+      content: url('../assets/curso/temas/tema5/16.svg')
+      top: -25px
+      left: 50%
+      transform: translateX(-50%)
+    &.bg-acento-botones-20
+        background-color: #A7DED3
+    &.bg-primario-20
+        background-color: #CED7DB
