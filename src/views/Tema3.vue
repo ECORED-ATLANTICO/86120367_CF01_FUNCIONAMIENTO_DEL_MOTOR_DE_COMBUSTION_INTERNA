@@ -280,49 +280,48 @@
             figure
               img(src='@/assets/curso/temas/tema3/25.png', alt='Motor de combustión interna')
 
-          .tarjeta.color-primario-p10.p-4(x="80%" y="20%" numero="01")
+          .tarjeta.color-acento-contenido-a10.p-4(x="25%" y="25%" numero="01")
             .time-line-info__number
               span 01
-            .h5.mb-4 Bloque de hierro fundido
-            .row.justify-content-center.align-items-center
-              .col-5
-                figure
-                  img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen decorativa')
-              .col-7
-                p El bloque de hierro fundido es una estructura resistente y duradera del motor, diseñada para alojar los cilindros y otros componentes. Ofrece alta rigidez y excelente capacidad de disipación térmica, pero es más pesado que el aluminio.
+            .h5.mb-4 Inspección del motor.
+            p Se desmonta y evalúa el desgaste de sus componentes.
 
-          .tarjeta.color-primario-p10.p-4(x="85%" y="60%" numero="02")
+          .tarjeta.color-acento-contenido-a10.p-4(x="40%" y="45%" numero="02")
             .time-line-info__number
               span 02
-            .h5.mb-4 Bloques del motor de aleación de metal ligero
-            .row.justify-content-center.align-items-center
-              .col-5
-                figure
-                  img(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
-              .col-7
-                p El bloque de motor en aleación de metal ligero, generalmente de aluminio, es más liviano que el de hierro fundido, mejorando la eficiencia y el rendimiento. Ofrece buena disipación térmica y resistencia a la corrosión, aunque requiere refuerzos para igualar la durabilidad.
+            .h5.mb-4 Rectificación de Cilindros
+            p.mb-3 El proceso es el siguiente:
+            ul.ps-3
+              li <strong>Alesado:</strong> Se agranda el diámetro de los cilindros con una máquina rectificadora.
+              li <strong>Bruñido:</strong> Se realiza un acabado con piedra abrasiva para mejorar la adherencia del aceite.
+              li <strong>Medición final:</strong> Se verifica que el diámetro sea uniforme y dentro de tolerancias.s.
 
-          .tarjeta.color-primario-p10.p-4(x="40%" y="10%" numero="03")
+          .tarjeta.color-acento-contenido-a10.p-4(x="55%" y="65%" numero="03")
             .time-line-info__number
               span 03
-            .h5.mb-4 Composición <em>del bloque de cilindros</em>
-            .row.justify-content-center.align-items-center
-              .col-5
-                figure
-                  img(src='@/assets/curso/temas/tema1/8.png', alt='Imagen decorativa')
-              .col-7
-                p Las partes principales de un bloque de motor incluyen: cilindros, donde se mueven los pistones; camisa de agua, para disipar el calor; galería de aceite, que lubrican las piezas móviles; rodamiento del cigüeñal, que convierte el movimiento lineal en rotativo; bielas, que conectan los pistones con el cigüeñal; y tapa del bloque, que sella y protege los componentes internos.
+            .h5.mb-4 Rectificación del cigüeñal
+            p Mecanizado de los apoyos del cigüeñal para restaurar su alineación.
 
-          .tarjeta.color-primario-p10.p-4(x="30%" y="30%" numero="04")
+          .tarjeta.color-acento-contenido-a10.p-4(x="45%" y="25%" numero="04")
             .time-line-info__number
               span 04
-            .h5.mb-4 Cilindros en el mismo bloque
-            .row.justify-content-center.align-items-center
-              .col-5
-                figure
-                  img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
-              .col-7
-                p Los cilindros son elementos fundamentales
+            .h5.mb-4 Rectificación de la culata
+            p Planifica la culata y se rectifican las válvulas para asegurar un buen sellado.
+
+          .tarjeta.color-acento-contenido-a10.p-4(x="65%" y="45%" numero="05")
+            .time-line-info__number
+              span 05
+            .h5.mb-4 Montaje y ajuste
+            p Ensamble las piezas rectificadas con nuevos componentes, como anillos y cojinetes.
+
+          .tarjeta.color-acento-contenido-a10.p-4(x="85%" y="65%" numero="06")
+            .time-line-info__number
+              span 06
+            .h5.mb-4 Prueba final
+            p Verificación del sellado y la eficiencia del motor antes de su instalación.
+
+
+         
 
 
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
