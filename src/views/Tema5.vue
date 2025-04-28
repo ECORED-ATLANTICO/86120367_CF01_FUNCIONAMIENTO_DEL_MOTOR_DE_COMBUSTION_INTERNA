@@ -7,6 +7,7 @@
         span 5
       h1 Alojamiento del eje de levas
 
+    .fullwith-bg.fullwith-bg--12.d-none.d-xl-block
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/1.png')})`}"
@@ -14,8 +15,75 @@
       .bloque-texto-g__texto.p-4
         p.d-block El eje de levas regula la apertura y cierre de las válvulas, coordinando su acción con el movimiento de los pistones. Su correcto montaje y ajuste son esenciales para el desempeño del motor.
         p.mb-0.d-block Es un eje mecanizado que controla la apertura y cierre de las válvulas de admisión y escape en un motor de combustión interna. Su diseño incluye una serie de levas (protuberancias o lóbulos) distribuidas a lo largo del eje, que empujan los taqués, balancines o directamente las válvulas para permitir el ingreso de la mezcla de aire y combustible y la expulsión de los gases quemados.
+    p <br>
+    p <br>
+    .fullwith-bg.fullwith-bg--6.d-none.d-xl-block
+    .tarjeta.tarjeta--blanca.p-4.pt-5.z-10.my-5
+      SlyderA(tipo="b")
+        .row.z-10.justify-content-center.align-items-center
+          .col-md-6
+            h4.mb-4 Componentes
+            p <strong>Muñones de apoyo:</strong> los árboles de levas suelen tener entre dos y cuatro de estos muñones de hierro macizo.
+            p <strong>Tronco:</strong> es la barra que conecta a los extremos del árbol de levas mediante engranajes.
+            p <strong>Levas:</strong> abren o cierran el árbol de levas en función de las necesidades de la combustión. Dependen de rampa, cresta y calado que vista.
+            p <strong>Piñón de accionamiento del distribuidor:</strong> sirve para conectar el distribuidor y poder mantener el ritmo del árbol de levas.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema5/2.png', alt='Medición dimensional')
+        .row.z-10.justify-content-center.align-items-center
+          .col-md-6
+            h4.mb-4 Medición dimensional: 
+            p Es clave para cuantificar el desgaste. 
+            p Con instrumentos como micrómetros triflautados y comparadores de interiores, se miden parámetros como el ovalamiento (tolerancia máxima de 0.03 mm en motores gasolina, según SAE J1227) y la conicidad (límite de 0.05 mm por ISO 12179:2020). 
+            p Las mediciones se realizan en tres alturas (superior, media e inferior) y dos ejes (X/Y), comparando los resultados con las especificaciones del fabricante.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
+        .row.z-10.justify-content-center.align-items-center
+          .col-md-6
+            h4.mb-4 Pruebas de fuga para camisas húmedas.
+            p Se aplican 3 bar de presión al sistema de refrigeración durante 15 minutos (norma ISO 11486:2017) o se usan kits de detección de hidrocarburos en el refrigerante (límite: <40 ppm). 
+            p Indicadores como emulsión de aceite-refrigerante o pérdida de presión superior al 10% en 5 minutos señalan fallas en los sellos, requiriendo acción inmediata.  
+
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema2/13.png', alt='Texto que describa la imagen')
+        .row.z-10.justify-content-center.align-items-center
+          .col-md-6
+            h4.mb-4 Reemplazo de camisas: varía según el tipo.  
+            p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150°C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
+            p <strong>En camisas húmedas</strong>, se usan juntas tóricas de EPDM resistentes a 140°C y se aplica un torque de 25-30 Nm en pernos, seguido de una prueba de presión de 2.5 bar para verificar estanqueidad. 
+            p Es crítico evitar reutilizar sellos o forzar ajustes, ya que esto reduce hasta un 30% la vida útil del motor (Nguyen et al., 2021). Estos procedimientos, respaldados por normas internacionales, garantizan precisión y confiabilidad en el mantenimiento. 
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema2/14.png', alt='Texto que describa la imagen')
+    p <br>
+    p <br>
+
+    Separador
+
+    #t_5_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+      h3 5.1.	Función y tipos de ejes de levas
+
+    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+      .col-lg-8
+        p El eje de levas controla el tiempo y la duración de la apertura de las válvulas mediante lóbulos con perfiles específicos. Se presentan dos configuraciones principales (SENA, 2012):
+        .row.justify-content-center.align-items-stretch
+          .col-md-6
+            .tarjetas-rosadas__contenido
+              h6.tarjetas-rosadas__title OHV (<em>Overhead Valve</em>): 
+              p Ubicado en el bloque del motor, transmite el movimiento a las válvulas mediante varillas y balancines.
+          .col-md-6
+            .tarjetas-rosadas__contenido
+              h6.tarjetas-rosadas__title OHC (<em>Overhead Camshaft</em>): 
+              p Situado en la culata, actúa directamente sobre las válvulas o mediante balancines cortos. En motores modernos, la configuración DOHC <em>(Double Overhead Camshaft)</em> utiliza dos ejes para una mayor precisión
+
+      .col-lg-4.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema5/6.png', alt='Ilustración de personas trabajando en un motor')
 
 
+    .fullwith-bg.fullwith-bg--13.d-none.d-xl-block
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
@@ -23,8 +91,61 @@
           span Esquema comparativo de configuraciones OHV y OHC
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7.png", alt="Esquema comparativo de configuraciones OHV y OHC")
         figcaption <strong>Fuente.</strong> SENA 2025
-
+    
     Separador
+
+    #t_5_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+      h3 5.2.	Procedimiento para el montaje del eje de levas
+
+    p El montaje del eje de levas requiere seguir pasos específicos, independientemente del diseño:
+    
+    .fullwith-bg.fullwith-bg--13.d-none.d-xl-block
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-10
+      .d-none.d-xl-block.col-xl-3
+        figure
+          img(src='@/assets/curso/temas/tema4/2.png', alt='Imagen de un mecánico')(data-aos="fade-up")
+      .col-xl-9.mb-3.mb-lg-0
+        SlyderF(columnas="col-lg-6")
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
+            .row.justify-content-center.mb-3
+              .col-4
+                img.factores-slider__icon(src='@/assets/curso/temas/tema5/8.svg' alt='Ilustacion de acompañamiento')
+            .factores-slider__title-wrapper  
+              h3.factores-slider__title Prevenir
+            p.mb-0.text-center Prevenir la materialización de los riesgos de contaminación alimenticia y disminuir de manera constante la probabilidad de que esta ocurra. Los riesgos correspondientes a la contaminación alimenticia, son aquellos originados en la producción primaria, que pueden producir Enfermedades de Transmisión Alimentaria (ETA), la prevención se logra mediante el desarrollo de programas y actividades de control.
+
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
+            .row.justify-content-center.mb-3
+              .col-4
+                img.factores-slider__icon(src='@/assets/curso/temas/tema5/9.svg' alt='Ilustacion de acompañamiento')
+            .factores-slider__title-wrapper  
+              h3.factores-slider__title Desarrollar
+            p.text-center Desarrollar y validar las guías de Buenas Prácticas Agrícolas conformes a las necesidades del productor y de la inocuidad, es importante que cada guía desarrollada esté clasificada según el tipo de producto, y de ser posible, ser específicas por cada producto.
+
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
+            .row.justify-content-center.mb-3
+              .col-4
+                img.factores-slider__icon(src='@/assets/curso/temas/tema5/10.svg' alt='Ilustacion de acompañamiento')
+            .factores-slider__title-wrapper  
+              h3.factores-slider__title Diseñar
+            p.text-center Diseñar y ejecutar programas de divulgación, capacitación y sensibilización para todo el personal de la finca o sistema de producción, que estén orientados a la manipulación higiénica de los alimentos, desde la producción primaria, hasta el momento en que llega al consumidor final.
+
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
+            .row.justify-content-center.mb-3
+              .col-4
+                img.factores-slider__icon(src='@/assets/curso/temas/tema5/11.svg' alt='Ilustacion de acompañamiento')
+            .factores-slider__title-wrapper  
+              h3.factores-slider__title Implementar
+            p.mb-0.text-center Diseñar e implementar un sistema que permita trazar a los productos a través todas las actividades de la producción agrícola, es decir, un sistema que permita comprobar qué cambios son efectuados durante cada actividad, y en qué momento; con la finalidad de poder establecer cuándo, y dónde, se presenta un riesgo de contaminación y poder controlarlo. Este sistema debe ser diseñado acorde a las necesidades específicas de cada producto.
+
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
+            .row.justify-content-center.mb-3
+              .col-4
+                img.factores-slider__icon(src='@/assets/curso/temas/tema5/12.svg' alt='Ilustacion de acompañamiento')
+            .factores-slider__title-wrapper  
+              h3.factores-slider__title Comunicar
+            p.text-center Desarrollar e implementar un sistema de manejo de la información, que permita comunicar al productor y los demás actores involucrados en la cadena agroalimentaria, sobre posibles problemas o accidentes que puedan comprometer la inocuidad del alimento.
+
 
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
@@ -34,6 +155,8 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/13.jpg", alt="Alineación de marcas de distribución e instalación del eje de levas")
         figcaption <strong>Fuente.</strong> SENA 2025
 
+    Separador
+    
     #t_5_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 5.3.	Ajuste y calibración del eje de levas
 
