@@ -34,7 +34,53 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/13.jpg", alt="Alineación de marcas de distribución e instalación del eje de levas")
         figcaption <strong>Fuente.</strong> SENA 2025
 
+    #t_5_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+      h3 5.3.	Ajuste y calibración del eje de levas
+
+    p Posterior al montaje se realizan ajustes para asegurar un funcionamiento óptimo:
+
     Separador
+
+    #t_5_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+      h3 5.4.	Diagnóstico y corrección de fallas en el eje de levas
+
+    p Es fundamental identificar y corregir las fallas que puedan presentarse:
+
+    .row.justify-content-center
+      .col-10.col-md-6.col-lg-3.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/17.png", alt="Desgaste de lóbulos")
+          .crd_hover_txt--body.text-center
+            h5.mb-3 Desgaste de lóbulos
+            p.mb-0 Se detecta mediante inspección visual o medición; un desgaste excesivo puede requerir rectificación o reemplazo.
+      .col-10.col-md-6.col-lg-3.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/18.png", alt="Desgaste de cojinetes")
+          .crd_hover_txt--body.text-center
+            h5.mb-3 Desgaste de cojinetes
+            p.mb-0 un juego excesivo en los cojinetes se asocia a ruidos y a una lubricación deficiente, por lo que su reemplazo es necesario.
+      .col-10.col-md-6.col-lg-3.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/19.png", alt="Ruidos anormales")
+          .crd_hover_txt--body.text-center
+            h5.mb-3 Ruidos anormales
+            p.mb-0 Son indicativos de problemas en el sistema de distribución, como tensión incorrecta o desgaste en los componentes.
+      .col-10.col-md-6.col-lg-3.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/20.png", alt="Rotura del eje")
+          .crd_hover_txt--body.text-center
+            h5.mb-3 Rotura del eje
+            p.mb-0 Aunque poco frecuente, la ruptura se manifiesta con fallos súbitos en la sincronización y ruidos metálicos intensos, lo que obliga al reemplazo del componente.
+
+          
 </template>
 
 <script>
