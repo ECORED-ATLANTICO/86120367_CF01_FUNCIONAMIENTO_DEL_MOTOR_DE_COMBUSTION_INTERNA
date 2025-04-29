@@ -127,15 +127,30 @@ figcaption
     top: 0
     left: -55px
     content: url('../assets/curso/temas/tema5/bg-3.png')
+  &--15::after
+    position: absolute
+    top: 0
+    left: -55px
+    content: url('../assets/curso/temas/tema4/bg-1.png')
+  &--16::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema4/bg-2.png')
+  &--17::after
+    position: absolute
+    top: -50px
+    left: -55px
+    content: url('../assets/curso/temas/tema4/bg-3.png')
 
-@media (min-width: 1090px)
+@media (min-width: 769px)
   .z-10
     position: relative
     z-index: 10
 
 .time-line-info
   .tarjeta
-    width: 548px
+    width: 300px
     position: relative
 
     p 
@@ -153,6 +168,12 @@ figcaption
 
   .img-infografica__item
     width: 5%
+
+@media (min-width: 769px)
+  .time-line-info
+    .tarjeta
+      width: 450px
+    position: relative
 
 .bg-tarjetas-gris
   position: relative
@@ -175,24 +196,30 @@ figcaption
   background-color: #D9EBE8
   border-radius: 10px
   padding: 20px 30px
-  margin-top: -40px
-
-.motor-title
-  font-size: 16px
-  position: relative
-  display: inline-block
-  padding: 32px 30px 32px 95px
-  background-repeat: no-repeat
-  background-position: left center
-  background-size: contain
-  &--1
-    background-image: url('../assets/curso/temas/title-icon.svg')
-  &--small
-    background-image: url('../assets/curso/temas/title-icon-small.png')
+  margin-top: -10px
 
 @media (min-width: 992px)
+  .banner-text
+    margin-top: -40px
+
+.motor-title
+  font-size: 14px
+  position: relative
+  display: inline-block
+  padding: 20px 10px 20px 60px
+  background-repeat: no-repeat
+  background-position: right center
+  background-size: cover
+  background-image: url('../assets/curso/temas/title-icon-small.png')
+  &--1
+    background-image: url('../assets/curso/temas/title-icon.svg')
+
+
+@media (min-width: 662px)
   .motor-title
     font-size: 20px
+    padding: 20px 10px 20px 90px
+    background-size: cover
 
 .pills
   display: flex
@@ -287,23 +314,22 @@ figcaption
     padding: 30px
     height: 100%
 
-.factores-slider, .custom-cards
+.factores-slider
   &__tarjeta
     border-radius: 14px
     box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1)
     height: 97% !important
   &__icon 
-    max-height: 70px
-    max-width: 70px
+    max-height: 90px
+    max-width: 90px
   
   &__title-wrapper
     text-align: center
 
   &__title
     background-color: #D1D1D1
-
-    padding: 20px
-    margin: 1rem auto
+    padding: 5px 20px
+    display: inline-block
 
   &__number
     color: $color-secundario
@@ -363,7 +389,78 @@ figcaption
       top: -25px
       left: 50%
       transform: translateX(-50%)
+    &--4::before
+      position: absolute
+      content: url('../assets/curso/temas/tema4/23.svg')
+      top: -25px
+      left: 50%
+      transform: translateX(-50%)
+    &--5::before
+      position: absolute
+      content: url('../assets/curso/temas/tema4/24.svg')
+      top: -25px
+      left: 50%
+      transform: translateX(-50%)
+    &--6::before
+      position: absolute
+      content: url('../assets/curso/temas/tema4/25.svg')
+      top: -25px
+      left: 50%
+      transform: translateX(-50%)
+    &--p-20
+      padding: 20px
     &.bg-acento-botones-20
         background-color: #A7DED3
     &.bg-primario-20
         background-color: #CED7DB
+  &__img
+    width: 94px
+    margin: 0 auto
+
+.recuadro
+  height: 327px
+  overflow: hidden
+  border-radius: 19px
+  &__title
+    padding: 20px
+    background-color: #A7DED3
+    text-align: center
+
+  &--1
+    background-image: url('../assets/curso/temas/tema4/26.png')
+    background-position: center
+    background-size: cover
+  &--2
+    background-image: url('../assets/curso/temas/tema4/27.png')
+    background-position: center
+    background-size: cover
+  &--3
+    background-image: url('../assets/curso/temas/tema4/28.png')
+    background-position: center
+    background-size: cover
+  &--4
+    background-image: url('../assets/curso/temas/tema4/29.png')
+    background-position: center
+    background-size: cover
+
+.tarjeta-slide__contenido
+  box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75)
+
+.slider-bg
+  background-image: url(../assets/curso/temas/tema2/bg-3.png)
+  background-size: cover
+  background-position: center
+
+.motor-timeline
+  .col-auto.linea-tiempo-d__item__col-number
+    margin-bottom: 50px
+
+  .linea-tiempo-d__item__content__title
+    background-color: #D1D1D1
+
+  .linea-tiempo-d__item__content__slot
+    background-color: #E8E8E8
+
+  .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content__title
+      background-color: #E8E8E8

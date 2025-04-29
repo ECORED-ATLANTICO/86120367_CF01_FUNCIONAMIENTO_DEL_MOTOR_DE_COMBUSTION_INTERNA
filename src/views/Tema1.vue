@@ -58,7 +58,7 @@
           .tarjeta.color-primario-p10.p-4(x="80%" y="20%" numero="01")
             .time-line-info__number
               span 01
-            .h5.mb-4 Bloque de hierro fundido
+            h5.mb-4 Bloque de hierro fundido
             .row.justify-content-center.align-items-center
               .col-5
                 figure
@@ -69,7 +69,7 @@
           .tarjeta.color-primario-p10.p-4(x="85%" y="60%" numero="02")
             .time-line-info__number
               span 02
-            .h5.mb-4 Bloques del motor de aleación de metal ligero
+            h5.mb-4 Bloques del motor de aleación de metal ligero
             .row.justify-content-center.align-items-center
               .col-5
                 figure
@@ -80,7 +80,7 @@
           .tarjeta.color-primario-p10.p-4(x="40%" y="10%" numero="03")
             .time-line-info__number
               span 03
-            .h5.mb-4 Composición <em>del bloque de cilindros</em>
+            h5.mb-4 Composición <em>del bloque de cilindros</em>
             .row.justify-content-center.align-items-center
               .col-5
                 figure
@@ -91,7 +91,7 @@
           .tarjeta.color-primario-p10.p-4(x="30%" y="30%" numero="04")
             .time-line-info__number
               span 04
-            .h5.mb-4 Cilindros en el mismo bloque
+            h5.mb-4 Cilindros en el mismo bloque
             .row.justify-content-center.align-items-center
               .col-5
                 figure
@@ -158,24 +158,24 @@
     p.z-10
      Algunas de las fallas y métodos de detección incluyen:
 
-    .row.z-10.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-tarjetas-gris
-      .col-md-4
-        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")
+    .row.z-10.justify-content-center.align-items-stretch.mb-4.mb-lg-5.bg-tarjetas-gris.gap-3
+      .col-10.col-md-5.col-xl-4
+        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h4.mb-4.mt-5.tarjeta-flip-title Grietas por fatiga térmica 
+              h4.my-4.mt-xl-5.tarjeta-flip-title Grietas por fatiga térmica 
               p.mb-4 <strong>Causa:</strong> ciclos repetidos de calentamiento/enfriamiento. 
               p.mb-4 <strong>Diagnóstico:</strong> líquidos penetrantes fluorescentes o termografía infrarroja. 
 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/13.jpg')})`}")
 
-      .col-md-4
-        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")
+      .col-10.col-md-5.col-xl-4
+        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.tarjeta-slide__img--right(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h4.mb-4.mt-5.tarjeta-flip-title Deformación de bancadas 
+              h4.my-4.mt-xl-5.tarjeta-flip-title Deformación de bancadas 
               p.mb-4 <strong>Síntoma:</strong> desalineación >0.1 mm en soportes de cigüeñal. 
               p.mb-4 <strong>Verificación:</strong> uso de regla de precisión clase 0 (±0.02 mm). 
 

@@ -13,14 +13,14 @@
     Separador
 
 
-    .fullwith-bg.fullwith-bg--7.d-none.d-xl-block
+    .fullwith-bg.fullwith-bg--7.d-none.d-lg-block
     #t_3_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 3.1.	Concepto y objetivos de la rectificación
 
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-lg-10
         p La rectificación consiste en un proceso de mecanizado de precisión que restaura la geometría original de los cilindros, afectados por desgaste, deformación o daños durante el funcionamiento del motor (SENA, 2012). El objetivo es devolver los cilindros a sus dimensiones y forma cilíndrica, dentro de las tolerancias de fabricación establecidas, con el fin de:
-      .col-8.col-lg-2
+      .col-8.col-md-6.col-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/2.png', alt='Ilustración decorativa')
 
@@ -57,7 +57,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/5.svg', alt='Ilustración decorativa')
             .bicolor-card__text
-              p.mb-0 el proceso de bruñido posterior genera microsurcos que retienen una fina capa de aceite, reduciendo la fricción y prolongando la vida de los componentes.
+              p.mb-0 El proceso de bruñido posterior genera microsurcos que retienen una fina capa de aceite, reduciendo la fricción y prolongando la vida de los componentes.
       .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
@@ -79,13 +79,13 @@
               figure
                 img(src='@/assets/curso/temas/tema3/7.svg', alt='Ilustración decorativa')
             .bicolor-card__text
-              p.mb-0 en casos de rectificación con sobremedida, se utilizan pistones adaptados para mantener el ajuste correcto.
+              p.mb-0 En casos de rectificación con sobremedida, se utilizan pistones adaptados para mantener el ajuste correcto.
             
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 6.
-          span Corte transversal de bloque con camisa seca
+          span Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación
         img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8-mobile.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
         figcaption <strong>Fuente.</strong> SENA 2025
@@ -98,7 +98,7 @@
 
     p.mb-4.z-10 El éxito del proceso depende del uso de equipos de alta precisión, tales como:
 
-    .fullwith-bg.fullwith-bg--8.d-none.d-xl-block
+    .fullwith-bg.fullwith-bg--8.d-none.d-lg-block
     .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
       .col-sm-6.col-xl-4.mb-4
         .bicolor-card
@@ -151,7 +151,7 @@
         p Antes de cualquier intervención, se debe desmontar cuidadosamente el bloque del motor y realizar una limpieza exhaustiva de la zona de los cilindros. Esta etapa inicial es fundamental para una correcta evaluación del estado de los cilindros (Procedimiento de rectificación, sf).
 
     .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
-      .col-sm-6.col-md-5.col-xl-4.mb-4
+      .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -162,7 +162,7 @@
                 img(src='@/assets/curso/temas/tema3/13.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Se retiran cuidadosamente los componentes que impiden la inspección y el mecanizado, como pistones, bielas y pernos de bancada.
-      .col-sm-6.col-md-5.col-xl-4.mb-4
+      .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -173,7 +173,7 @@
                 img(src='@/assets/curso/temas/tema3/14.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 La superficie del cilindro se limpia con solventes y cepillos no abrasivos para eliminar residuos de aceite, carbón o refrigerante.
-      .col-sm-6.col-md-5.col-xl-4.mb-4
+      .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -196,7 +196,7 @@
     h3(data-aos='zoom-in-right').mb-4.z-10
       span.motor-title.motor-title--small Medición y análisis de desgaste
 
-    .fullwith-bg.fullwith-bg--9.d-none.d-xl-block
+    .fullwith-bg.fullwith-bg--9.d-none.d-lg-block
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-xl-3.d-none.d-xl-block
         figure
@@ -239,11 +239,11 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/21.png", alt="Puntos de medición de diámetro interior en cilindro")
         figcaption <strong>Fuente.</strong> SENA 2025
 
-    h3(data-aos='zoom-in-right').mb-4.z-10
+    h3(data-aos='zoom-in-right').mb-4.z-10.mb-lg-5
       span.motor-title.motor-title--1 Técnicas de rectificación y reacondicionamiento
 
     .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
-      .col-sm-6.col-md-5.col-xl-4.mb-4
+      .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -251,10 +251,10 @@
           .bicolor-card__content
             .bicolor-card__img.pt-4
               figure
-                img(src='@/assets/curso/temas/tema3/22.svg', alt='Ilustración decorativa')
+                img.pe-2(src='@/assets/curso/temas/tema3/22.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 La rectificadora remueve capas de material en pasadas sucesivas para alcanzar la sobremedida seleccionada. Es fundamental garantizar la alineación correcta del bloque para mantener la perpendicularidad del cilindro.
-      .col-sm-6.col-md-5.col-xl-4.mb-4
+      .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
             .bicolor-card__title
@@ -262,7 +262,7 @@
           .bicolor-card__content
             .bicolor-card__img.pt-4
               figure
-                img(src='@/assets/curso/temas/tema3/23.svg', alt='Ilustración decorativa')
+                img.pe-2(src='@/assets/curso/temas/tema3/23.svg', alt='Ilustración decorativa')
             .bicolor-card__text
               p.mb-0 Posterior al rectificado, se emplea la bruñidora para generar microsurcos cruzados en la superficie. Estos surcos mejoran la retención de aceite, disminuyendo la fricción y optimizando el sellado.
 
@@ -283,13 +283,13 @@
           .tarjeta.color-acento-contenido-a10.p-4(x="25%" y="25%" numero="01")
             .time-line-info__number
               span 01
-            .h5.mb-4 Inspección del motor.
+            h5.mb-4 Inspección del motor.
             p Se desmonta y evalúa el desgaste de sus componentes.
 
           .tarjeta.color-acento-contenido-a10.p-4(x="40%" y="45%" numero="02")
             .time-line-info__number
               span 02
-            .h5.mb-4 Rectificación de Cilindros
+            h5.mb-4 Rectificación de Cilindros
             p.mb-3 El proceso es el siguiente:
             ul.ps-3
               li <strong>Alesado:</strong> Se agranda el diámetro de los cilindros con una máquina rectificadora.
@@ -299,25 +299,25 @@
           .tarjeta.color-acento-contenido-a10.p-4(x="55%" y="65%" numero="03")
             .time-line-info__number
               span 03
-            .h5.mb-4 Rectificación del cigüeñal
+            h5.mb-4 Rectificación del cigüeñal
             p Mecanizado de los apoyos del cigüeñal para restaurar su alineación.
 
           .tarjeta.color-acento-contenido-a10.p-4(x="45%" y="25%" numero="04")
             .time-line-info__number
               span 04
-            .h5.mb-4 Rectificación de la culata
+            h5.mb-4 Rectificación de la culata
             p Planifica la culata y se rectifican las válvulas para asegurar un buen sellado.
 
           .tarjeta.color-acento-contenido-a10.p-4(x="65%" y="45%" numero="05")
             .time-line-info__number
               span 05
-            .h5.mb-4 Montaje y ajuste
+            h5.mb-4 Montaje y ajuste
             p Ensamble las piezas rectificadas con nuevos componentes, como anillos y cojinetes.
 
           .tarjeta.color-acento-contenido-a10.p-4(x="85%" y="65%" numero="06")
             .time-line-info__number
               span 06
-            .h5.mb-4 Prueba final
+            h5.mb-4 Prueba final
             p Verificación del sellado y la eficiencia del motor antes de su instalación.
 
 
