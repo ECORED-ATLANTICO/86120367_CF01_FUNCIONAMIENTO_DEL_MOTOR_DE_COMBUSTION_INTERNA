@@ -207,21 +207,139 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema:
+        'Descripción y funcionamiento del motor de combustión interna a gasolina bloques y pistones',
+      referencia:
+        'SENA. (2012). Proceso de rectificación y reacondicionamiento de motores. SENA.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=23ccsGRPfVQ',
+    },
+    {
+      tema: 'El bloque de cilindros',
+      referencia: 'Sonco, A. (2000). Bloque de cilindros [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Rz0W8e4YaHk',
+    },
+    {
+      tema: 'El pistón',
+      referencia:
+        'Tenango-Pirin, O. (2020). Análisis termoestructural de un pistón de motor de combustión interna con recubrimiento térmico. Instituto de Ingeniería y Tecnología.',
+      tipo: 'Capítulo / Artículo',
+      link:
+        'https://cathi.uacj.mx/bitstream/handle/20.500.11961/15153/Analisis%20termoestructural%20de%20un%20piston.pdf?sequence=1&isAllowed=y',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Anillo de compresión:',
+      significado:
+        'anillo de metal en el pistón que sella la cámara de combustión, evitando fugas.',
+    },
+    {
+      termino: 'Anillo de control de aceite:',
+      significado:
+        'anillo en el pistón que regula la cantidad de aceite en la pared del cilindro.',
+    },
+    {
+      termino: 'Biela:',
+      significado:
+        'elemento que conecta el pistón con el cigüeñal, transformando movimiento lineal en rotación.',
+    },
+    {
+      termino: 'Bloque de cilindros:',
+      significado:
+        'estructura principal que alberga cilindros, pistones y otros componentes del motor.',
+    },
+    {
+      termino: 'Bruñido:',
+      significado:
+        'proceso que genera microsurcos en la superficie del cilindro para retener aceite lubricante.',
+    },
+    {
+      termino: 'Camisa de cilindro:',
+      significado:
+        'tubos insertados en el bloque para formar la superficie de deslizamiento del pistón',
+    },
+    {
+      termino: 'Cilindro:',
+      significado:
+        'cavidad en el bloque donde se mueve el pistón y ocurre la combustión.',
+    },
+    {
+      termino: 'Compresión:',
+      significado:
+        'proceso de aumento de presión en la cámara de combustión producido por el pistón.',
+    },
+    {
+      termino: 'Culata:',
+      significado:
+        'parte superior del bloque del motor que sella los cilindros y aloja las válvulas y, en algunos motores, las bujías; esencial para el cierre de la cámara de combustión.',
+    },
+    {
+      termino: 'Eje de levas:',
+      significado:
+        'componente que regula la apertura y cierre de válvulas en sincronía con el motor.',
+    },
+    {
+      termino: 'Micrómetro:',
+      significado:
+        'instrumento de medición de alta precisión para determinar dimensiones interiores en motores.',
+    },
+    {
+      termino: 'Pistón:',
+      significado:
+        'elemento móvil que transforma la combustión en movimiento mecánico dentro del cilindro.',
+    },
+    {
+      termino: 'Rectificación:',
+      significado:
+        'elemento móvil que transforma la combustión en movimiento mecánico dentro del cilindro.',
+    },
+    {
+      termino: 'Sobremedida:',
+      significado:
+        'incremento del diámetro del cilindro para eliminar desgaste excesivo y mejorar sellado.',
+    },
+    {
+      termino: 'Sobremedida:',
+      significado:
+        'dispositivos ubicados en la culata que regulan la entrada de mezcla aire-combustible y la salida de gases de escape en cada ciclo del motor.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        '<strong>Castro, G.</strong> (2009). Ciencia de materiales para ingeniería: Fundiciones. Departamento de Ingeniería Mecánica, FIUBA.',
+      link: '',
+    },
+    {
+      referencia:
+        '<strong>Nguyen, T., Smith, J., & García, R.</strong> (2019). Thermal performance analysis of wet cylinder liners in internal combustion engines. SAE Technical Paper, 2019-01-2356.',
+      link: 'https://doi.org/10.4271/2019-01-2356',
+    },
+    {
+      referencia:
+        '<strong>SAE International.</strong> (2018). J1227: Standard for cylinder bore wear measurement in gasoline engines. SAE.',
+      link: '',
+    },
+    {
+      referencia:
+        '<strong>ISO.</strong> (2020). ISO 12179: Geometrical product specifications (GPS)—Surface texture: Profile method—Calibration of contact (stylus) instruments.',
+      link: 'https://www.iso.org/standard/72758.html ISO',
+    },
+    {
+      referencia:
+        '<strong>SENA.</strong> (2012). Procesos de rectificación en motores de combustión interna. Servicio Nacional de Aprendizaje.',
+      link: '',
+    },
+    {
+      referencia:
+        '<strong>Redondo, L. (2021). Diseño y análisis de componentes críticos en motores: Pistones y bielas. Ingeniería Mecánica Aplicada, 15(3), 45-62.',
+      link: 'https://doi.org/10.1016/j.ima.2021.03.004',
+    },
+    {
+      referencia:
+        '<strong>ASTM International</strong>. (2019). ASTM B94-19: Standard specification for copper-alloy die castings. ASTM.',
       link: '',
     },
   ],
@@ -230,14 +348,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -245,9 +364,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Edwin Abello Rubiano',
+          cargo: 'Experto temático',
+          centro: '',
+        },
+        {
+          nombre: 'Heydy Cristina Gonzalez Garcia',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Regional Atlántico. Centro de comercio y servicios',
+        },
+        {
+          nombre: 'Jair Coll',
+          cargo: 'Evaluador instruccional',
+          centro: 'Regional Atlántico. Centro de comercio y servicios',
         },
       ],
     },
@@ -255,19 +384,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrés Felipe Herrera',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Fabio Fonseca Arguelles',
+          cargo: 'Desarrollador <i>full stack junior</i>',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nelson Ivan Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
