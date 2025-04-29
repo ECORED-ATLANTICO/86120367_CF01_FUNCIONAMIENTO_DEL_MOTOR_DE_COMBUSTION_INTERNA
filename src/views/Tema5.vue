@@ -15,10 +15,8 @@
       .bloque-texto-g__texto.p-4
         p.d-block El eje de levas regula la apertura y cierre de las válvulas, coordinando su acción con el movimiento de los pistones. Su correcto montaje y ajuste son esenciales para el desempeño del motor.
         p.mb-0.d-block Es un eje mecanizado que controla la apertura y cierre de las válvulas de admisión y escape en un motor de combustión interna. Su diseño incluye una serie de levas (protuberancias o lóbulos) distribuidas a lo largo del eje, que empujan los taqués, balancines o directamente las válvulas para permitir el ingreso de la mezcla de aire y combustible y la expulsión de los gases quemados.
-    p <br>
-    p <br>
-    .fullwith-bg.fullwith-bg--6.d-none.d-xl-block
-    .tarjeta.tarjeta--blanca.p-4.pt-5.z-10.my-5
+
+    .tarjeta.tarjeta--blanca.p-4.pt-5.z-10.slider-bg.mb-5
       SlyderA(tipo="b")
         .row.z-10.justify-content-center.align-items-center
           .col-md-6
@@ -32,43 +30,35 @@
               img(src='@/assets/curso/temas/tema5/2.png', alt='Medición dimensional')
         .row.z-10.justify-content-center.align-items-center
           .col-md-6
-            h4.mb-4 Medición dimensional: 
-            p Es clave para cuantificar el desgaste. 
-            p Con instrumentos como micrómetros triflautados y comparadores de interiores, se miden parámetros como el ovalamiento (tolerancia máxima de 0.03 mm en motores gasolina, según SAE J1227) y la conicidad (límite de 0.05 mm por ISO 12179:2020). 
-            p Las mediciones se realizan en tres alturas (superior, media e inferior) y dos ejes (X/Y), comparando los resultados con las especificaciones del fabricante.
+            h4.mb-4 Alojamiento del eje de levas
+            p El eje de levas se ubica en diferentes partes del motor según su diseño. En motores OHV (Overhead Valve-Valvuas en culata), está dentro del bloque, cerca del cigüeñal. En motores OHC (<em>Overhead Camshaft</em>-árbol de levas en cabeza) y DOHC (<em>Double Overhead Camshaft</em>- doble árbol de levas en cabeza), se encuentra en la culata, sobre las válvulas. Su posición permite controlar la apertura y cierre de las válvulas mediante levas, coordinando el flujo de aire y combustible para la combustión eficiente del motor.
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/3.png', alt='Texto que describa la imagen')
         .row.z-10.justify-content-center.align-items-center
           .col-md-6
-            h4.mb-4 Pruebas de fuga para camisas húmedas.
-            p Se aplican 3 bar de presión al sistema de refrigeración durante 15 minutos (norma ISO 11486:2017) o se usan kits de detección de hidrocarburos en el refrigerante (límite: <40 ppm). 
-            p Indicadores como emulsión de aceite-refrigerante o pérdida de presión superior al 10% en 5 minutos señalan fallas en los sellos, requiriendo acción inmediata.  
-
+            h4.mb-4 Alojamiento para los ejes balanceadores
+            p El alojamiento de los ejes balanceadores es la estructura dentro del bloque del motor donde se montan estos ejes para reducir vibraciones. Generalmente, están ubicados en la parte inferior del bloque, paralelos al cigüeñal, y giran en sentido opuesto para equilibrar las fuerzas inerciales del motor. Su correcto alineamiento y lubricación son esenciales para el rendimiento y durabilidad del motor, evitando desgaste prematuro y vibraciones excesivas.
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema2/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/4.png', alt='Texto que describa la imagen')
         .row.z-10.justify-content-center.align-items-center
           .col-md-6
-            h4.mb-4 Reemplazo de camisas: varía según el tipo.  
-            p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150°C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
-            p <strong>En camisas húmedas</strong>, se usan juntas tóricas de EPDM resistentes a 140°C y se aplica un torque de 25-30 Nm en pernos, seguido de una prueba de presión de 2.5 bar para verificar estanqueidad. 
-            p Es crítico evitar reutilizar sellos o forzar ajustes, ya que esto reduce hasta un 30% la vida útil del motor (Nguyen et al., 2021). Estos procedimientos, respaldados por normas internacionales, garantizan precisión y confiabilidad en el mantenimiento. 
+            h4.mb-4 Pernos y espárragos para la culata 
+            p Los pernos y espárragos de culata aseguran la unión firme entre la culata y el bloque del motor, soportando altas temperaturas y presiones de combustión. Los pernos se enroscan directamente en el bloque, mientras que los espárragos se fijan primero al bloque y luego se ajusta la culata con tuercas. Ambos evitan fugas de gases y líquidos, manteniendo la estanqueidad. Su correcta instalación y torque son fundamentales para evitar deformaciones y garantizar el rendimiento del motor.
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema2/14.png', alt='Texto que describa la imagen')
-    p <br>
-    p <br>
+              img(src='@/assets/curso/temas/tema5/5.png', alt='Texto que describa la imagen')
 
     Separador
 
-    #t_5_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_5_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10.mb-5
       h3 5.1.	Función y tipos de ejes de levas
 
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-lg-8
-        p El eje de levas controla el tiempo y la duración de la apertura de las válvulas mediante lóbulos con perfiles específicos. Se presentan dos configuraciones principales (SENA, 2012):
-        .row.justify-content-center.align-items-stretch
+        p.mb-4 El eje de levas controla el tiempo y la duración de la apertura de las válvulas mediante lóbulos con perfiles específicos. Se presentan dos configuraciones principales (SENA, 2012):
+        .row.justify-content-center.align-items-stretch.gap-3.gap-sm-0
           .col-md-6
             .tarjetas-rosadas__contenido
               h6.tarjetas-rosadas__title OHV (<em>Overhead Valve</em>): 
@@ -83,7 +73,7 @@
           img(src='@/assets/curso/temas/tema5/6.png', alt='Ilustración de personas trabajando en un motor')
 
 
-    .fullwith-bg.fullwith-bg--13.d-none.d-xl-block
+    .fullwith-bg.fullwith-bg--13.d-none.d-lg-block
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
@@ -97,54 +87,54 @@
     #t_5_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 5.2.	Procedimiento para el montaje del eje de levas
 
-    p El montaje del eje de levas requiere seguir pasos específicos, independientemente del diseño:
+    p.mb-4 El montaje del eje de levas requiere seguir pasos específicos, independientemente del diseño:
     
-    .fullwith-bg.fullwith-bg--13.d-none.d-xl-block
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-10
+    .fullwith-bg.fullwith-bg--13.d-none.d-md-block
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-2
       .d-none.d-xl-block.col-xl-3
         figure
           img(src='@/assets/curso/temas/tema4/2.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-9.mb-3.mb-lg-0
-        SlyderF(columnas="col-lg-6")
-          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
-            .row.justify-content-center.mb-3
+        SlyderF(columnas="col-md-6")
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
+            .row.justify-content-center.mb-5
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/8.svg' alt='Ilustacion de acompañamiento')
-            .factores-slider__title-wrapper  
-              h3.factores-slider__title Prevenir
-            p.mb-0.text-center Prevenir la materialización de los riesgos de contaminación alimenticia y disminuir de manera constante la probabilidad de que esta ocurra. Los riesgos correspondientes a la contaminación alimenticia, son aquellos originados en la producción primaria, que pueden producir Enfermedades de Transmisión Alimentaria (ETA), la prevención se logra mediante el desarrollo de programas y actividades de control.
+            .factores-slider__title-wrapper.mb-3
+              h3.factores-slider__title Inspección de componentes: 
+            p.mb-5.mb-0.text-center Se revisan visualmente el eje, los cojinetes y los seguidores de válvula en busca de desgaste o daños.
 
-          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
-            .row.justify-content-center.mb-3
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
+            .row.justify-content-center.mb-5
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/9.svg' alt='Ilustacion de acompañamiento')
-            .factores-slider__title-wrapper  
-              h3.factores-slider__title Desarrollar
-            p.text-center Desarrollar y validar las guías de Buenas Prácticas Agrícolas conformes a las necesidades del productor y de la inocuidad, es importante que cada guía desarrollada esté clasificada según el tipo de producto, y de ser posible, ser específicas por cada producto.
+            .factores-slider__title-wrapper.mb-3
+              h3.factores-slider__title Lubricación: 
+            p.mb-5.text-center Se aplica aceite o grasa específica en los cojinetes y lóbulos para asegurar un montaje sin fricción.
 
-          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
-            .row.justify-content-center.mb-3
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
+            .row.justify-content-center.mb-5
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/10.svg' alt='Ilustacion de acompañamiento')
-            .factores-slider__title-wrapper  
-              h3.factores-slider__title Diseñar
-            p.text-center Diseñar y ejecutar programas de divulgación, capacitación y sensibilización para todo el personal de la finca o sistema de producción, que estén orientados a la manipulación higiénica de los alimentos, desde la producción primaria, hasta el momento en que llega al consumidor final.
+            .factores-slider__title-wrapper.mb-3
+              h3.factores-slider__title Alineación de marcas de distribución: 
+            p.mb-5.text-center Se alinean las marcas en el eje de levas y en el cigüeñal para garantizar la sincronización de la apertura de válvulas.
 
-          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
-            .row.justify-content-center.mb-3
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
+            .row.justify-content-center.mb-5
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/11.svg' alt='Ilustacion de acompañamiento')
-            .factores-slider__title-wrapper  
-              h3.factores-slider__title Implementar
-            p.mb-0.text-center Diseñar e implementar un sistema que permita trazar a los productos a través todas las actividades de la producción agrícola, es decir, un sistema que permita comprobar qué cambios son efectuados durante cada actividad, y en qué momento; con la finalidad de poder establecer cuándo, y dónde, se presenta un riesgo de contaminación y poder controlarlo. Este sistema debe ser diseñado acorde a las necesidades específicas de cada producto.
+            .factores-slider__title-wrapper.mb-3
+              h3.factores-slider__title Instalación del Eje: 
+            p.mb-5.mb-0.text-center Se coloca el eje en sus alojamientos, verificando el asentamiento correcto de los cojinetes.
 
-          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta
-            .row.justify-content-center.mb-3
+          .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
+            .row.justify-content-center.mb-5
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/12.svg' alt='Ilustacion de acompañamiento')
-            .factores-slider__title-wrapper  
-              h3.factores-slider__title Comunicar
-            p.text-center Desarrollar e implementar un sistema de manejo de la información, que permita comunicar al productor y los demás actores involucrados en la cadena agroalimentaria, sobre posibles problemas o accidentes que puedan comprometer la inocuidad del alimento.
+            .factores-slider__title-wrapper.mb-3
+              h3.factores-slider__title Fijación de soportes y sistema de accionamiento: 
+            p.mb-5.text-center En motores OHC, se instalan las tapas de cojinete y se conecta la correa, cadena o engranajes que sincronizan el movimiento.
 
 
     .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
@@ -183,7 +173,7 @@
       h3 5.4.	Diagnóstico y corrección de fallas en el eje de levas
 
     p Es fundamental identificar y corregir las fallas que puedan presentarse:
-
+    .fullwith-bg.fullwith-bg--14.d-none.d-lg-block
     .row.justify-content-center
       .col-10.col-md-6.col-lg-3.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
