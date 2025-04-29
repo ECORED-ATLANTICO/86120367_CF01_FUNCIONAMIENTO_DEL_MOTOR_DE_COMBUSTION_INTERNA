@@ -143,6 +143,10 @@ figcaption
     left: -55px
     content: url('../assets/curso/temas/tema4/bg-3.png')
 
+.z-2
+  position: relative
+  z-index: 2
+
 @media (min-width: 769px)
   .z-10
     position: relative
@@ -299,7 +303,7 @@ figcaption
       padding-bottom: 40px
       border: 1px solid red 
 
-.img-infografica__card
+.img-infografica__card, .motor-tabs
   ul
     list-style: disc
 
@@ -358,10 +362,6 @@ figcaption
       font-size: 19px
     .fa-chevron-right
       font-size: 19px
-    &.ps-3
-      margin-left: 20px
-    &.pe-3
-      margin-right: 20px
 
 
 .custom-cards
@@ -452,9 +452,6 @@ figcaption
   background-position: center
 
 .motor-timeline
-  .col-auto.linea-tiempo-d__item__col-number
-    margin-bottom: 50px
-
   .linea-tiempo-d__item__content__title
     background-color: #D1D1D1
 
@@ -464,3 +461,25 @@ figcaption
   .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content__title
       background-color: #E8E8E8
+
+@media (min-width: 1200px)
+  .motor-timeline
+    .col-auto.linea-tiempo-d__item__col-number
+      margin-bottom: 50px
+
+.slyder-f__btn.ps-3
+  margin-left: 5px
+.slyder-f__btn.pe-3
+  margin-right: 5px
+
+@media (min-width: 490px)
+  .slyder-f__btn.ps-3
+    margin-left: 20px
+  .slyder-f__btn.pe-3
+    margin-right: 20px
+
+.bg-gray
+  background-color: #F4F4F4
+
+.accesibilidad
+  z-index: 50

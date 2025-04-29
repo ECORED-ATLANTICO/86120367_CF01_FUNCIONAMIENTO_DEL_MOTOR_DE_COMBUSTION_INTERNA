@@ -14,16 +14,16 @@
         p.banner-text Una vez que los cilindros han sido rectificados y bruñidos o en motores nuevos, se procede al ensamblaje de los pistones.
 
     Separador
-    .fullwith-bg.fullwith-bg--15.d-none.d-lg-block
-    #t_4_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    .fullwith-bg.fullwith-bg--15.d-lg-block
+    #t_4_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 4.1.	Componentes del pistón y su función
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-10
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-2
       .d-none.d-xl-block.col-xl-3
         figure
           img(src='@/assets/curso/temas/tema4/2.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-9.mb-3.mb-lg-0
-        SlyderF(columnas="col-lg-6")
+        SlyderF(columnas="col-md-6")
           .tarjeta.tarjeta--blanca.py-5.px-4.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-4
@@ -64,7 +64,65 @@
               h4.factores-slider__title.mb-4 Biela
             p.mb-4.text-center Transforma el movimiento lineal del pistón en rotación del cigüeñal (Redondo, 2021).
 
-    .tarjeta.tarjeta--blanca.p-4.pt-5.z-10.mt-5.slider-bg.mb-5
+    TabsB.color-acento-botones.z-2.motor-tabs
+      .bg-gray.p-4.py-md-5(titulo="Que es un pistón" :icono="require('@/assets/curso/temas/tema4/8.svg')")
+        .row.align-items-center.justify-content-around
+          .col-md-7.mb-4.mb-md-0
+            h4 Que es un pistón
+            p Un pistón es un componente cilíndrico móvil dentro del motor de combustión interna. Su función principal es recibir la presión generada por la combustión del aire y combustible, transformándola en movimiento mecánico. Se desliza dentro del cilindro, transmitiendo fuerza al cigüeñal a través de la biela. Está diseñado para soportar altas temperaturas y presiones, garantizando un funcionamiento eficiente del motor.
+        
+          .col-10.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema4/12.png', alt='Pistón')
+
+      .bg-gray.p-4.py-md-5(titulo="Partes de un pistón" :icono="require('@/assets/curso/temas/tema4/9.svg')")
+        .row.align-items-center.justify-content-around
+          .col-md-7.mb-4.mb-md-0
+            h4 Partes de un pistón
+            ul.ps-3
+              li <strong>Anillo superior de compresión</strong>: Sella la cámara de combustión y evita fugas de gases.
+              li <strong>Anillo secundario de compresión</strong>: Refuerza el sellado y ayuda a eliminar el exceso de aceite.
+              li <strong>Anillo de aceite</strong>: Controla la lubricación en las paredes del cilindro y reduce el consumo de aceite.
+              li <strong>Cabeza del pistón</strong>: Zona superior que soporta la presión y el calor de la combustión.
+              li <strong>Falda</strong>: Parte inferior que mantiene la estabilidad dentro del cilindro.
+              li <strong>Segmentos o aros</strong>: Garantizan el sellado de la cámara de combustión.
+              li <strong>Perno de pistón</strong>: Conecta el pistón con la biela y permite el movimiento.
+              li <strong>Ranuras</strong>: Espacios para alojar los segmentos.
+              li <strong>Tapa de Biela</strong>: función principal es sujetar el muñón del cigüeñal, permitiendo el movimiento rotativo de la biela.
+        
+          .col-10.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema4/13.png', alt='Pistón')
+
+      .bg-gray.p-4.py-md-5(titulo="Esfuerzo de un pistón" :icono="require('@/assets/curso/temas/tema4/10.svg')")
+        .row.align-items-center.justify-content-around
+          .col-md-7.mb-4.mb-md-0
+            h4 Esfuerzo de un pistón
+            ul.ps-3
+              li Un pistón soporta aproximadamente temperaturas mayores a los 2 mil grados centígrados.
+              li Soportan 1,8 toneladas de presión, que equivalen a 1.835,49 KG de fuerza.
+              li Por cada vuelta que da el cigüeñal del motor, el pistón recorre una distancia que es igual a dos veces la carrera, en un motor convencional la velocidad media del pistón suele estar entre 10 y 20 metros por segundo.
+        
+          .col-10.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema4/14.png', alt='Pistón 2')
+
+      .bg-gray.p-4.py-md-5(titulo="Innovaciones en pistones" :icono="require('@/assets/curso/temas/tema4/11.svg')")
+        .row.align-items-center.justify-content-around
+          .col-md-7.mb-4.mb-md-0
+            h4 Innovaciones en pistones
+            p Las innovaciones en pistones han mejorado su rendimiento, eficiencia y durabilidad, entre estas tenemos: 
+            p <strong>Pistones de aleaciones avanzadas</strong>: Uso de materiales como aluminio forjado y recubrimientos cerámicos para reducir peso y mejorar la disipación de calor.
+            p <strong>Diseños de baja fricción</strong>: Superficies con recubrimientos especiales (grafito, DLC) que minimizan la fricción y el desgaste.
+            p <strong>Estructuras reforzadas</strong>: Geometrías optimizadas para soportar mayores cargas en motores de alto rendimiento. Pistones con refrigeración interna: Canales internos para la circulación de aceite que reducen la temperatura de trabajo. Tecnología de pistón asimétrico: Diseños que reducen el contacto con la pared del cilindro, disminuyendo pérdidas por fricción y mejorando la eficiencia del motor.
+        
+          .col-10.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema4/15.png', alt='Pistón')
+
+
+
+    .tarjeta.tarjeta--blanca.p-4.pt-5.z-2.mt-5.slider-bg.mb-5
       SlyderA(tipo="b")
         .row.z-10.justify-content-evenly.align-items-center
           .col-md-6
@@ -143,20 +201,20 @@
       h5 Figura 11.
       span Orientación correcta del pistón, la biela y uso de alicates para anillos
 
-    .row.justify-content-center.align-items-stretch.mb-3
-      .col-lg-3
+    .row.justify-content-center.align-items-stretch.mb-3.gap-3.gap-xl-0
+      .col-10.col-md-5.col-xl-3
         .recuadro.recuadro--1
           .recuadro__title
             h5.m-0 Ensambaje de pistones y bielas
-      .col-lg-3
+      .col-10.col-md-5.col-xl-3
         .recuadro.recuadro--2
           .recuadro__title
             h5.m-0 Bulones flotantes
-      .col-lg-3
+      .col-10.col-md-5.col-xl-3
         .recuadro.recuadro--3
           .recuadro__title
             h5.m-0 Ligero giro de los anillos
-      .col-lg-3
+      .col-10.col-md-5.col-xl-3
         .recuadro.recuadro--4
           .recuadro__title
             h5.m-0 Montaje de la biela de sujeción
