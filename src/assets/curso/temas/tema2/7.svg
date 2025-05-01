@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112.086" height="112.086" viewBox="0 0 112.086 112.086">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.102" height="86.102" viewBox="0 0 86.102 86.102">
   <defs>
     <clipPath id="clip-path">
       <path id="path10448" d="M0-682.665H86.1v86.1H0Z" transform="translate(0 682.665)"/>
     </clipPath>
   </defs>
-  <g id="g10440" transform="translate(-223.477 632.956) rotate(22)">
+  <g id="g10440" transform="translate(0 682.665)">
     <path id="path10442" d="M250.068-663.412H219.279v-9.252h30.788Z" transform="translate(-191.623 -8.739)" fill="#dae4ea"/>
     <g id="g10444" transform="translate(0 -682.665)">
       <g id="g10446" clip-path="url(#clip-path)">

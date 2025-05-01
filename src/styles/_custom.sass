@@ -1,3 +1,7 @@
+.curso-main-container > .container
+  overflow: hidden
+  
+  
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -51,9 +55,6 @@
   img
     position: relative
     z-index: 10
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
@@ -235,6 +236,9 @@ figcaption
   gap: 23px
   &__img
     width: 68px
+    &--rotate
+      width: 80px
+      transform: rotate(22deg)
 
 .slyder-a__btn--atrs, .slyder-a__btn--sigt 
   background-color: #45CEB3

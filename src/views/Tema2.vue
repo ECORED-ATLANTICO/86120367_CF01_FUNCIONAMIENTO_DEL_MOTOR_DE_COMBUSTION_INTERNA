@@ -66,7 +66,7 @@
       .col-xl-8
         p.mb-4 Las camisas húmedas están diseñadas para establecer contacto directo con el refrigerante del motor en su superficie exterior (SENA, 2012). Esta característica permite una transferencia de calor más eficiente desde el cilindro hacia el refrigerante, lo que contribuye a una mejor refrigeración del motor.
         .pills
-          img.pills__img(data-aos="zoom-in-left")(src="@/assets/curso/temas/tema2/7.svg", alt="Icono decorativo")
+          img.pills__img.pills__img--rotate(src="@/assets/curso/temas/tema2/7.svg", alt="Icono decorativo")
           .pills__text
             p.mb-0 <strong>Sellado:</strong> anillos de nitrilo (NBR) con resistencia a 150 °C.
             p.mb-0 <strong>Ventaja:</strong> reducción de temperatura en zona de combustión hasta 15 % (Nguyen et al., 2019).
@@ -91,7 +91,7 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
         figcaption Fuente SENA 2025
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-10.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 2.
@@ -129,6 +129,8 @@
                 td Aplicaciones comunes
                 td Bloques de aluminio, rectificaciones
                 td Motores de servicio pesados
+
+    Separador
 
     #t_2_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
       h3 2.2.	Métodos de inspección y mantenimiento de camisas de cilindro
