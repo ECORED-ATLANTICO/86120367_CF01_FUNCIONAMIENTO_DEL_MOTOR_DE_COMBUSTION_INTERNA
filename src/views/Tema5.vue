@@ -19,34 +19,34 @@
     .tarjeta.tarjeta--blanca.p-4.pt-5.z-10.slider-bg.mb-5
       SlyderA(tipo="b")
         .row.z-10.justify-content-center.align-items-center
-          .col-md-6
+          .col-lg-6
             h4.mb-4 Componentes
             p <strong>Muñones de apoyo:</strong> los árboles de levas suelen tener entre dos y cuatro de estos muñones de hierro macizo.
             p <strong>Tronco:</strong> es la barra que conecta a los extremos del árbol de levas mediante engranajes.
             p <strong>Levas:</strong> abren o cierran el árbol de levas en función de las necesidades de la combustión. Dependen de rampa, cresta y calado que vista.
             p <strong>Piñón de accionamiento del distribuidor:</strong> sirve para conectar el distribuidor y poder mantener el ritmo del árbol de levas.
-          .col-md-4
+          .col-10.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema5/2.png', alt='Medición dimensional')
         .row.z-10.justify-content-center.align-items-center
-          .col-md-6
+          .col-lg-6
             h4.mb-4 Alojamiento del eje de levas
             p El eje de levas se ubica en diferentes partes del motor según su diseño. En motores OHV (Overhead Valve-Valvuas en culata), está dentro del bloque, cerca del cigüeñal. En motores OHC (<em>Overhead Camshaft</em>-árbol de levas en cabeza) y DOHC (<em>Double Overhead Camshaft</em>- doble árbol de levas en cabeza), se encuentra en la culata, sobre las válvulas. Su posición permite controlar la apertura y cierre de las válvulas mediante levas, coordinando el flujo de aire y combustible para la combustión eficiente del motor.
-          .col-md-4
+          .col-10.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema5/3.png', alt='Texto que describa la imagen')
         .row.z-10.justify-content-center.align-items-center
-          .col-md-6
+          .col-lg-6
             h4.mb-4 Alojamiento para los ejes balanceadores
             p El alojamiento de los ejes balanceadores es la estructura dentro del bloque del motor donde se montan estos ejes para reducir vibraciones. Generalmente, están ubicados en la parte inferior del bloque, paralelos al cigüeñal, y giran en sentido opuesto para equilibrar las fuerzas inerciales del motor. Su correcto alineamiento y lubricación son esenciales para el rendimiento y durabilidad del motor, evitando desgaste prematuro y vibraciones excesivas.
-          .col-md-4
+          .col-10.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema5/4.png', alt='Texto que describa la imagen')
         .row.z-10.justify-content-center.align-items-center
-          .col-md-6
+          .col-lg-6
             h4.mb-4 Pernos y espárragos para la culata 
             p Los pernos y espárragos de culata aseguran la unión firme entre la culata y el bloque del motor, soportando altas temperaturas y presiones de combustión. Los pernos se enroscan directamente en el bloque, mientras que los espárragos se fijan primero al bloque y luego se ajusta la culata con tuercas. Ambos evitan fugas de gases y líquidos, manteniendo la estanqueidad. Su correcta instalación y torque son fundamentales para evitar deformaciones y garantizar el rendimiento del motor.
-          .col-md-4
+          .col-10.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema5/5.png', alt='Texto que describa la imagen')
 

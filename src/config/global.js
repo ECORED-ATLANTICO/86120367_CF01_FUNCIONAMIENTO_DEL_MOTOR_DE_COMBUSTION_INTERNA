@@ -225,83 +225,82 @@ export default {
       referencia:
         'Tenango-Pirin, O. (2020). Análisis termoestructural de un pistón de motor de combustión interna con recubrimiento térmico. Instituto de Ingeniería y Tecnología.',
       tipo: 'Capítulo / Artículo',
-      link:
-        'https://cathi.uacj.mx/bitstream/handle/20.500.11961/15153/Analisis%20termoestructural%20de%20un%20piston.pdf?sequence=1&isAllowed=y',
+      link: '/downloads/Analisis-termoestructural-de-un-piston.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Anillo de compresión:',
+      termino: 'Anillo de compresión',
       significado:
         'anillo de metal en el pistón que sella la cámara de combustión, evitando fugas.',
     },
     {
-      termino: 'Anillo de control de aceite:',
+      termino: 'Anillo de control de aceite',
       significado:
         'anillo en el pistón que regula la cantidad de aceite en la pared del cilindro.',
     },
     {
-      termino: 'Biela:',
+      termino: 'Biela',
       significado:
         'elemento que conecta el pistón con el cigüeñal, transformando movimiento lineal en rotación.',
     },
     {
-      termino: 'Bloque de cilindros:',
+      termino: 'Bloque de cilindros',
       significado:
         'estructura principal que alberga cilindros, pistones y otros componentes del motor.',
     },
     {
-      termino: 'Bruñido:',
+      termino: 'Bruñido',
       significado:
         'proceso que genera microsurcos en la superficie del cilindro para retener aceite lubricante.',
     },
     {
-      termino: 'Camisa de cilindro:',
+      termino: 'Camisa de cilindro',
       significado:
         'tubos insertados en el bloque para formar la superficie de deslizamiento del pistón',
     },
     {
-      termino: 'Cilindro:',
+      termino: 'Cilindro',
       significado:
         'cavidad en el bloque donde se mueve el pistón y ocurre la combustión.',
     },
     {
-      termino: 'Compresión:',
+      termino: 'Compresión',
       significado:
         'proceso de aumento de presión en la cámara de combustión producido por el pistón.',
     },
     {
-      termino: 'Culata:',
+      termino: 'Culata',
       significado:
         'parte superior del bloque del motor que sella los cilindros y aloja las válvulas y, en algunos motores, las bujías; esencial para el cierre de la cámara de combustión.',
     },
     {
-      termino: 'Eje de levas:',
+      termino: 'Eje de levas',
       significado:
         'componente que regula la apertura y cierre de válvulas en sincronía con el motor.',
     },
     {
-      termino: 'Micrómetro:',
+      termino: 'Micrómetro',
       significado:
         'instrumento de medición de alta precisión para determinar dimensiones interiores en motores.',
     },
     {
-      termino: 'Pistón:',
+      termino: 'Pistón',
       significado:
         'elemento móvil que transforma la combustión en movimiento mecánico dentro del cilindro.',
     },
     {
-      termino: 'Rectificación:',
+      termino: 'Rectificación',
       significado:
         'elemento móvil que transforma la combustión en movimiento mecánico dentro del cilindro.',
     },
     {
-      termino: 'Sobremedida:',
+      termino: 'Sobremedida',
       significado:
         'incremento del diámetro del cilindro para eliminar desgaste excesivo y mejorar sellado.',
     },
     {
-      termino: 'Sobremedida:',
+      termino: 'Sobremedida',
       significado:
         'dispositivos ubicados en la culata que regulan la entrada de mezcla aire-combustible y la salida de gases de escape en cada ciclo del motor.',
     },
