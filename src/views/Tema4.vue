@@ -198,24 +198,10 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Figura 11.
       span Orientación correcta del pistón, la biela y uso de alicates para anillos
+    img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-mobile.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
+    img.d-none.d-sm-block.d-lg-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-tablet.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
+    img.d-none.d-lg-block(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
 
-    .row.justify-content-center.align-items-stretch.mb-3.gap-3.gap-xl-0
-      .col-10.col-md-5.col-xl-3
-        .recuadro.recuadro--1
-          .recuadro__title
-            h5.m-0 Ensambaje de pistones y bielas
-      .col-10.col-md-5.col-xl-3
-        .recuadro.recuadro--2
-          .recuadro__title
-            h5.m-0 Bulones flotantes
-      .col-10.col-md-5.col-xl-3
-        .recuadro.recuadro--3
-          .recuadro__title
-            h5.m-0 Ligero giro de los anillos
-      .col-10.col-md-5.col-xl-3
-        .recuadro.recuadro--4
-          .recuadro__title
-            h5.m-0 Montaje de la biela de sujeción
     figcaption <strong>Fuente.</strong> SENA 2025
 
     Separador
