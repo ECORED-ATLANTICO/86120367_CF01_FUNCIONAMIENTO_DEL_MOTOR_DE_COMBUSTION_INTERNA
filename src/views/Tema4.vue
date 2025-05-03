@@ -9,12 +9,12 @@
 
     img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/1.png", alt="Imagen decorativa")
 
-    .row.justify-content-center.align-items-center.z-10
+    .row.justify-content-center.align-items-center.z-2
       .col-lg-10
         p.banner-text Una vez que los cilindros han sido rectificados y bruñidos o en motores nuevos, se procede al ensamblaje de los pistones.
 
     Separador
-    .fullwith-bg.fullwith-bg--15.d-lg-block
+    .fullwith-bg.fullwith-bg--3
     #t_4_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 4.1.	Componentes del pistón y su función
 
@@ -120,46 +120,44 @@
             figure
               img(src='@/assets/curso/temas/tema4/15.png', alt='Pistón')
 
-
-
     .tarjeta.tarjeta--blanca.p-4.pt-5.z-2.mt-5.slider-bg.mb-5
       SlyderA(tipo="b")
-        .row.z-10.justify-content-evenly.align-items-center
+        .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistones Planos
             p El pistón plano tiene una corona sin elevaciones ni depresiones, lo que proporciona una combustión eficiente. Se usa en motores de alto rendimiento y bajo consumo. Su diseño reduce puntos calientes y mejora la relación de compresión sin interferencias
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/16.png', alt='Pistones Planos')
-        .row.z-10.justify-content-evenly.align-items-center
+        .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistones abombados
             p El pistón abombado tiene una corona elevada que aumenta la relación de compresión, mejorando la eficiencia térmica y la potencia del motor. Se usa en motores de alto rendimiento y combustión optimizada, ayudando a dirigir la mezcla aire-combustible.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/17.png', alt='Pistones abombados')
-        .row.z-10.justify-content-evenly.align-items-center
+        .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistón cóncavo
             p El pistón cóncavo tiene una corona hundida que mejora la mezcla y combustión del aire-combustible. Se usa en motores diésel y de alto torque, reduciendo la detonación y mejorando la eficiencia térmica. Su diseño favorece la turbulencia y optimiza la combustión.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/18.png', alt='Pistón cóncavo')
-        .row.z-10.justify-content-evenly.align-items-center
+        .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistón de cabeza tronco-cónica.
             p Los pistones de cabeza tronco-cónica tienen una corona con forma de cono truncado, mejorando la mezcla aire-combustible y la eficiencia de combustión. Se utilizan en motores de alto rendimiento, optimizando el flujo de gases y reduciendo el riesgo de detonación
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/19.png', alt='Pistón de cabeza tronco-cónica.')
-        .row.z-10.justify-content-evenly.align-items-center
+        .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistón asimétrico
             p El pistón asimétrico reduce la fricción y mejora la eficiencia al minimizar el contacto con la pared del cilindro. Su diseño optimiza el rendimiento y disminuye el desgaste, siendo ideal para motores de alto desempeño.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/20.png', alt='Pistón asimétrico')
-        .row.z-10.justify-content-evenly.align-items-center
+        .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistones Refrigerados
             p Los pistones refrigerados tienen canales internos para la circulación de aceite, disipando el calor y evitando sobrecalentamiento. Mejoran la eficiencia térmica, reducen el desgaste y aumentan la durabilidad en motores de alto rendimiento y alta exigencia térmica.
@@ -167,7 +165,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/21.png', alt='Pistones Refrigerados')
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 10.
@@ -177,12 +175,12 @@
 
     Separador
 
-    #t_4_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_4_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 4.2.	Proceso de ensamblaje de pistones y bielas
 
     p.mb-5 El ensamblaje se realiza con precisión para evitar daños:
 
-    .row.justify-content-center.align-items-stretch.z-10.custom-cards
+    .row.justify-content-center.align-items-stretch.z-2.custom-cards
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--4
           h5.text-center.my-5 Orientación: 
@@ -221,13 +219,13 @@
     figcaption <strong>Fuente.</strong> SENA 2025
 
     Separador
-    #t_4_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_4_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 4.3.	Métodos de instalación y ajuste de pistones
 
-    .fullwith-bg.fullwith-bg--16.d-none.d-lg-block
+    .fullwith-bg.fullwith-bg--2
     p El montaje de los pistones en el cilindro sigue estos pasos:
 
-    .row.justify-content-center.align-items-center.mt-4.mb-4.mb-lg-5.motor-timeline.z-10
+    .row.justify-content-center.align-items-center.mt-4.mb-4.mb-lg-5.motor-timeline.z-2
       .col-lg-6
         LineaTiempoD.color-secundario.mb-4.mb-lg-0
           .row(numero="1" titulo="Lubricación")
@@ -254,7 +252,7 @@
         figure
           img(data-aos="fade-up")(src='@/assets/curso/temas/tema4/30.png', alt='Mecánico con una herramienta')
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 12.
@@ -264,13 +262,13 @@
 
     Separador
 
-    #t_4_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_4_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 4.4.	Pruebas de verificación del ensamblaje
 
     p.mb-5 Tras el ensamblaje se realizan pruebas para confirmar la correcta instalación:
       
-    .fullwith-bg.fullwith-bg--17.d-none.d-lg-block
-    .row.justify-content-center.align-items-stretch.z-10.custom-cards
+    .fullwith-bg.fullwith-bg--1
+    .row.justify-content-center.align-items-stretch.z-2.custom-cards
       .col-md-6.col-lg-4.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--p-20
           img.custom-cards__img(src="@/assets/curso/temas/tema4/32.svg")

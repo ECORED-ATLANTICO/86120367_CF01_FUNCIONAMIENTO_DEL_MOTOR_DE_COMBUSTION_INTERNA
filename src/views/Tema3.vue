@@ -13,18 +13,18 @@
     Separador
 
 
-    .fullwith-bg.fullwith-bg--7.d-none.d-lg-block
-    #t_3_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    .fullwith-bg.fullwith-bg--3
+    #t_3_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 3.1.	Concepto y objetivos de la rectificación
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-10
         p La rectificación consiste en un proceso de mecanizado de precisión que restaura la geometría original de los cilindros, afectados por desgaste, deformación o daños durante el funcionamiento del motor (SENA, 2012). El objetivo es devolver los cilindros a sus dimensiones y forma cilíndrica, dentro de las tolerancias de fabricación establecidas, con el fin de:
       .col-8.col-md-6.col-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/2.png', alt='Ilustración decorativa')
 
-    .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-stretch.z-2.mb-4.mb-lg-5
       .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
@@ -81,7 +81,7 @@
             .bicolor-card__text
               p.mb-0 En casos de rectificación con sobremedida, se utilizan pistones adaptados para mantener el ajuste correcto.
             
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 6.
@@ -92,14 +92,14 @@
 
     Separador
     
-    #t_3_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_3_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 3.2.	Herramientas y equipos utilizados en la rectificación
 
 
-    p.mb-4.z-10 El éxito del proceso depende del uso de equipos de alta precisión, tales como:
+    p.mb-4.z-2 El éxito del proceso depende del uso de equipos de alta precisión, tales como:
 
-    .fullwith-bg.fullwith-bg--8.d-none.d-lg-block
-    .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
+    .fullwith-bg.fullwith-bg--2
+    .row.justify-content-center.align-items-stretch.z-2.mb-4.mb-lg-5
       .col-sm-6.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
@@ -136,21 +136,21 @@
 
       Separador
 
-    #t_3_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_3_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 3.3.	Etapas del proceso de rectificación
 
     p.mb-4 El procedimiento se desarrolla en tres etapas secuenciales:
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema3/12.png', alt='Ilustración decorativa')
       .col-lg-9
-        h3(data-aos='zoom-in-right').mb-4.z-10
+        h3(data-aos='zoom-in-right').mb-4.z-2
           span.motor-title.motor-title--small Desmontaje y evaluación inicial:
         p Antes de cualquier intervención, se debe desmontar cuidadosamente el bloque del motor y realizar una limpieza exhaustiva de la zona de los cilindros. Esta etapa inicial es fundamental para una correcta evaluación del estado de los cilindros (Procedimiento de rectificación, sf).
 
-    .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-stretch.z-2.mb-4.mb-lg-5
       .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
@@ -185,7 +185,7 @@
             .bicolor-card__text
               p.mb-0 Se evalúa el estado del cilindro, identificando rayaduras profundas, picaduras u otras anomalías en la zona crítica de los anillos.
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 7.
@@ -193,11 +193,11 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/16.png", alt="Bloque motor en etapa de inspección previa")
         figcaption <strong>Fuente.</strong> SENA 2025
 
-    h3(data-aos='zoom-in-right').mb-4.z-10
+    h3(data-aos='zoom-in-right').mb-4.z-2
       span.motor-title.motor-title--small Medición y análisis de desgaste
 
-    .fullwith-bg.fullwith-bg--9.d-none.d-lg-block
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .fullwith-bg.fullwith-bg--1
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-xl-3.d-none.d-xl-block
         figure
           img(src='@/assets/curso/temas/tema3/17.png', alt='Ilustración decorativa')
@@ -231,7 +231,7 @@
                 h5.mb-3 Selección de la sobremedida
                 p.mb-0 según el análisis, se define la sobremedida (incrementos comunes de 0,25 mm, 0,50 mm, 0,75 mm o 1,00 mm) que permita eliminar imperfecciones sin comprometer la integridad de la pared.
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 8.
@@ -239,10 +239,10 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/21.png", alt="Puntos de medición de diámetro interior en cilindro")
         figcaption <strong>Fuente.</strong> SENA 2025
 
-    h3(data-aos='zoom-in-right').mb-4.z-10.mb-lg-5
+    h3(data-aos='zoom-in-right').mb-4.z-2.mb-lg-5
       span.motor-title.motor-title--1 Técnicas de rectificación y reacondicionamiento
 
-    .row.justify-content-center.align-items-stretch.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-stretch.z-2.mb-4.mb-lg-5
       .col-sm-6.col-lg-5.col-xl-4.mb-4
         .bicolor-card
           .bicolor-card__header
@@ -266,14 +266,14 @@
             .bicolor-card__text
               p.mb-0 Posterior al rectificado, se emplea la bruñidora para generar microsurcos cruzados en la superficie. Estos surcos mejoran la retención de aceite, disminuyendo la fricción y optimizando el sellado.
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-7
         p.mb-lg-0 La rectificación es un proceso mecánico que consiste en restaurar las superficies de las piezas del motor que han sufrido desgaste o deformación debido al uso. Se realiza en componentes clave como los cilindros, el cigüeñal, la culata y las válvulas. Este proceso sirve para recupera la geometría original de las piezas del motor; elimina deformaciones y desgastes, permitiendo un mejor sellado y ajuste; mejora la eficiencia y el rendimiento del motor, reduciendo el consumo de aceite y combustible; y por último prolonga la vida útil del motor al devolverle sus especificaciones originales.
       .col-lg-5.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema3/24.png', alt='Ilustración decorativa')
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         ImagenInfografica.color-terciario.time-line-info
           template(v-slot:imagen)
@@ -324,7 +324,7 @@
          
 
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 9.

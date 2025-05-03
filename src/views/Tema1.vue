@@ -10,13 +10,14 @@
     figure
       img(src='@/assets/curso/temas/tema1/1.png', alt='Ilustración decorativa')
 
-    .fullwith-bg.fullwith-bg--1.d-none.d-xl-block
     Separador
 
-    #t_1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    .fullwith-bg.fullwith-bg--1
+    
+    #t_1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 1.1	Definición y función del bloque de cilindros
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-10
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-10.col-lg-5.col-xl-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema1/2.png', alt='Imagen decorativa')(data-aos="fade-up")
@@ -25,7 +26,7 @@
         .cajon.color-acento-contenido-ac10.p-4
           p.mb-0 El bloque de cilindros también cumple la función de distribuir las intensas fuerzas generadas durante la combustión, actuando como un elemento de rigidez que preserva la integridad mecánica del motor. Internamente, incorpora conductos diseñados para la circulación del aceite lubricante, crucial para la reducción de la fricción entre las partes móviles, y para el flujo del refrigerante, esencial para la regulación de la temperatura de funcionamiento del motor y la prevención del sobrecalentamiento. Asimismo, la superficie externa del bloque sirve como punto de anclaje para diversos componentes auxiliares de importancia vital, tales como la bomba de agua, la bomba de aceite, el alternador y los soportes del motor (SENA, 2012). En esencia, la solidez y la precisión del bloque de cilindros son indispensables para la operación eficiente del motor y su capacidad para resistir las exigencias de su funcionamiento.
 
-    .row.justify-content-center.align-items-center.z-10
+    .row.justify-content-center.align-items-center.z-2
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
@@ -38,7 +39,7 @@
     #t_1_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
       h3 1.2	Materiales y construcción del bloque de cilindros
     
-    .row.justify-content-center.mb-4.mb-lg-5.z-10
+    .row.justify-content-center.mb-4.mb-lg-5.z-2
       .col-lg-8
         p.mb-4.mb-lg-0 La selección del material y el método de construcción del bloque de cilindros influyen de manera significativa en el rendimiento, el peso y la durabilidad del motor. Tradicionalmente, el material predominante para la fabricación de bloques ha sido la fundición de hierro, particularmente la fundición gris con designaciones como GG-20 o GG-25 (Castro, 2009; SENA, 2012). Este material se caracteriza por una notable resistencia al desgaste y una capacidad para absorber vibraciones, lo que contribuye a un funcionamiento más silencioso. 
       .col-md-8.col-lg-4
@@ -48,7 +49,7 @@
     p El bloque de cilindros es la estructura principal de un motor de combustión interna, fabricada generalmente de hierro fundido o aluminio. Su función es albergar los cilindros donde se desplazan los pistones, además de proporcionar soporte para otros componentes como el cigüeñal, el árbol de levas y el sistema de refrigeración.
     p.mb-4.mb-lg-5 Está diseñado con conductos internos para la circulación del refrigerante y el aceite, evitando el sobrecalentamiento y reduciendo la fricción. Puede tener distintas configuraciones según la disposición de los cilindros, como en línea, en V, lo que influye en el rendimiento y la compactación del motor.
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         ImagenInfografica.color-terciario.time-line-info
           template(v-slot:imagen)
@@ -99,8 +100,8 @@
               .col-7
                 p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
                 
-    .fullwith-bg.fullwith-bg--2.d-none.d-xl-block
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5.z-10
+    .fullwith-bg.fullwith-bg--1
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5.z-2
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/10.png')})`}"
       )
@@ -108,7 +109,7 @@
         h4.d-block Materiales predominantes
         p.d-block En la búsqueda de motores con menor peso y mayor eficiencia térmica, los fabricantes contemporáneos han incrementado el uso de aleaciones de aluminio (SENA, 2012). Aleaciones como la G-Al Si 12 ofrecen una reducción considerable en el peso del motor, lo que se traduce en un menor consumo de combustible y una respuesta mejorada del vehículo.
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
@@ -118,18 +119,18 @@
 
     .d-block.my-3
       <br>
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-7
         p En cuanto a la construcción, si bien algunos diseños antiguos o de alto rendimiento pueden emplear bloques de cilindros construidos en secciones unidas mediante pernos, la práctica actual predominante es la fabricación del bloque como una única pieza fundida (monoblock) que integra los cilindros y, en muchos casos, la carcasa del cigüeñal (SENA, 2012). Esta construcción unitaria proporciona una mayor rigidez estructural y reduce el número de juntas, disminuyendo el riesgo de fugas.
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen decorativa')(data-aos="fade-up")
 
-    .titulo-sexto.color-acento-contenido.mb-4.z-10
+    .titulo-sexto.color-acento-contenido.mb-4.z-2
       h5 Tabla 1.
       span Definición y función del bloque de cilindros
 
-    .tabla-a.color-acento-contenido.z-10
+    .tabla-a.color-acento-contenido.z-2
       table
         caption <strong>Fuente.</strong> Sena, 2025
         thead
@@ -149,19 +150,18 @@
 
     Separador
 
-    .fullwith-bg.fullwith-bg--3.d-none.d-xl-block
-    #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    .fullwith-bg.fullwith-bg--1
+    #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 1.3	Fallas comunes en el bloque de cilindros y su diagnóstico
 
-    p.z-10
+    p.z-2
      A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
-    p.z-10
+    p.z-2
      Algunas de las fallas y métodos de detección incluyen:
 
-    .row.z-10.justify-content-center.align-items-stretch.mb-4.mb-lg-5.bg-tarjetas-gris.gap-3
+    .row.z-2.justify-content-center.align-items-stretch.mb-4.mb-lg-5.bg-tarjetas-gris.gap-3
       .col-10.col-md-5.col-xl-4
-        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
+        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
               h4.my-4.mt-xl-5.tarjeta-flip-title Grietas por fatiga térmica 
@@ -171,7 +171,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/13.jpg')})`}")
 
       .col-10.col-md-5.col-xl-4
-        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(@mouseover="indicadorTarjetaSlide = false")(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
+        .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.tarjeta-slide__img--right(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
@@ -179,7 +179,7 @@
               p.mb-4 <strong>Síntoma:</strong> desalineación >0.1 mm en soportes de cigüeñal. 
               p.mb-4 <strong>Verificación:</strong> uso de regla de precisión clase 0 (±0.02 mm). 
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.

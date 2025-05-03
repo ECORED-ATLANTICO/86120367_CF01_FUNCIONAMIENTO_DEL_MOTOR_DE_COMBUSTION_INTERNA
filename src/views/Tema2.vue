@@ -9,13 +9,13 @@
 
     img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/1.png", alt="Imagen decorativa")
 
-    .row.justify-content-center.align-items-center.z-10
+    .row.justify-content-center.align-items-center.z-2
       .col-lg-10
         p.banner-text En los bloques de cilindros fabricados con aleaciones se emplean camisas de cilindro. Estas son piezas cilíndricas de material con mayor resistencia al desgaste que se insertan dentro del bloque para constituir la superficie de deslizamiento del pistón (SENA, 2012).
 
     Separador
 
-    #t_2_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_2_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.1.	Tipos de camisas de cilindro
 
     p.mb-4.mb-lg-5 Existen principalmente dos tipos de camisas de cilindro, cada una con atributos y aplicaciones particulares:
@@ -23,10 +23,10 @@
     h3(data-aos='zoom-in-right').mb-4
       span.motor-title.motor-title--1 Camisas secas: características y aplicaciones 
 
-    .row.justify-content-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.z-2.mb-4.mb-lg-5
       .col-xl-8
         p.mb-4 Las camisas secas, también conocidas como <em>"sleeves"</em> o <em>"liners"</em>, son tubos delgados de material resistente que se insertan a presión en el bloque de cilindros. Su característica principal radica en que no establece contacto directo con el refrigerante del motor (SENA, 2012). La transferencia de calor desde la camisa hacia el refrigerante se efectúa a través del material del bloque.
-        .row.justify-content-center.align-items-center.z-10
+        .row.justify-content-center.align-items-center.z-2
           .col-lg-6.p-2
             .pills
               img.pills__img(data-aos="zoom-in-left")(src="@/assets/curso/temas/tema2/2.svg", alt="Icono decorativo")
@@ -40,29 +40,29 @@
       .col-xl-4.d-none.d-xl-block
         figure
           img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/3.png", alt="Imagen decorativa")
-    .fullwith-bg.fullwith-bg--4.d-none.d-xl-block
-    figure.z-10.mb-4
+    .fullwith-bg.fullwith-bg--1
+    figure.z-2.mb-4
       img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/4.png", alt="Imagen decorativa")
 
-    p.mb-4.mb-lg-5.z-10 La camisa seca es un revestimiento desmontable dentro del cilindro, sin contacto directo con el refrigerante. Protege contra el desgaste, facilita reparaciones y mejora la disipación del calor, asegurando mayor durabilidad y eficiencia en el motor
+    p.mb-4.mb-lg-5.z-2 La camisa seca es un revestimiento desmontable dentro del cilindro, sin contacto directo con el refrigerante. Protege contra el desgaste, facilita reparaciones y mejora la disipación del calor, asegurando mayor durabilidad y eficiencia en el motor
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-10
         img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5-mobile.png", alt="Corte transversal de bloque con camisa seca")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5.png", alt="Corte transversal de bloque con camisa seca")
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Corte transversal de bloque con camisa seca
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/6.png", alt="Corte transversal de bloque con camisa seca")
         figcaption <strong>Fuente.</strong> SENA 2025
-    .fullwith-bg.fullwith-bg--5.d-none.d-xl-block
-    h3(data-aos='zoom-in-right').mb-4.z-10
+    .fullwith-bg.fullwith-bg--1
+    h3(data-aos='zoom-in-right').mb-4.z-2
       span.motor-title.motor-title--1 Camisas húmedas: ventajas y desventajas
 
-    .row.justify-content-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.z-2.mb-4.mb-lg-5
       .col-xl-8
         p.mb-4 Las camisas húmedas están diseñadas para establecer contacto directo con el refrigerante del motor en su superficie exterior (SENA, 2012). Esta característica permite una transferencia de calor más eficiente desde el cilindro hacia el refrigerante, lo que contribuye a una mejor refrigeración del motor.
         .pills
@@ -74,16 +74,16 @@
         figure
           img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/8.png", alt="Imagen decorativa")
 
-    .row.justify-content-center.z-10.mb-4
+    .row.justify-content-center.z-2.mb-4
       .col-lg-10
         p.mb-0 La camisa húmeda es un revestimiento cilíndrico en contacto directo con el refrigerante, mejorando la disipación de calor. Se instala en el bloque del motor con sellos para evitar fugas y facilitar el mantenimiento.
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-10
         img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9-mobile.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
 
-    .row.justify-content-center.align-items-center.z-10.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5.
@@ -91,12 +91,12 @@
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
         figcaption Fuente SENA 2025
 
-    .row.justify-content-center.align-items-center.z-10.mb-4
+    .row.justify-content-center.align-items-center.z-2.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 2.
           span Comparación entre Camisas Secas y Húmedas
-        .tabla-a.color-acento-contenido.z-10.tabla-custom
+        .tabla-a.color-acento-contenido.z-2.tabla-custom
           table
             caption <strong>Fuente.</strong> Sena, 2025
             thead
@@ -132,14 +132,14 @@
 
     Separador
 
-    #t_2_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-10
+    #t_2_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.2.	Métodos de inspección y mantenimiento de camisas de cilindro
     
     p La inspección y el mantenimiento de las camisas de cilindro son críticos para garantizar la eficiencia del motor y prevenir fallas prematuras.
 
-    .tarjeta.tarjeta--blanca.p-4.pt-5.z-10.mt-5.slider-bg
+    .tarjeta.tarjeta--blanca.p-4.pt-5.z-2.mt-5.slider-bg
       SlyderA(tipo="b")
-        .row.z-10.justify-content-center.align-items-center
+        .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Inspección visual
             p Es el primer paso para evaluar el estado de las camisas de cilindro. 
@@ -148,7 +148,7 @@
           .col-10.col-lg-6.col-xl-4
             figure
               img(src='@/assets/curso/temas/tema2/11.png', alt='Texto que describa la imagen')
-        .row.z-10.justify-content-center.align-items-center
+        .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Medición dimensional: 
             p Es clave para cuantificar el desgaste. 
@@ -157,7 +157,7 @@
           .col-10.col-lg-6.col-xl-4
             figure
               img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
-        .row.z-10.justify-content-center.align-items-center
+        .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Pruebas de fuga para camisas húmedas.
             p Se aplican 3 bar de presión al sistema de refrigeración durante 15 minutos (norma ISO 11486:2017) o se usan kits de detección de hidrocarburos en el refrigerante (límite: <40 ppm). 
@@ -166,7 +166,7 @@
           .col-10.col-lg-6.col-xl-4
             figure
               img(src='@/assets/curso/temas/tema2/13.png', alt='Texto que describa la imagen')
-        .row.z-10.justify-content-center.align-items-center
+        .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Reemplazo de camisas: varía según el tipo.  
             p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150°C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
