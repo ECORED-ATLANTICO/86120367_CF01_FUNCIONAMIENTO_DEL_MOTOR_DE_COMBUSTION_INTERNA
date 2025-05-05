@@ -51,55 +51,97 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
-        ImagenInfografica.color-terciario.time-line-info
+        //- ImagenInfografica.color-terciario.time-line-info
+        //-   template(v-slot:imagen)
+        //-     figure
+        //-       img(src='@/assets/curso/temas/tema1/5.png', alt='Motor de combustión interna')
+
+        //-   .tarjeta.color-primario-p10.p-4(x="80%" y="20%" numero="01")
+        //-     .time-line-info__number
+        //-       span 01
+        //-     h5.mb-4 Bloque de hierro fundido
+        //-     .row.justify-content-center.align-items-center
+        //-       .col-5
+        //-         figure
+        //-           img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen decorativa')
+        //-       .col-7
+        //-         p El bloque de hierro fundido es una estructura resistente y duradera del motor, diseñada para alojar los cilindros y otros componentes. Ofrece alta rigidez y excelente capacidad de disipación térmica, pero es más pesado que el aluminio.
+
+        //-   .tarjeta.color-primario-p10.p-4(x="85%" y="60%" numero="02")
+        //-     .time-line-info__number
+        //-       span 02
+        //-     h5.mb-4 Bloques del motor de aleación de metal ligero
+        //-     .row.justify-content-center.align-items-center
+        //-       .col-5
+        //-         figure
+        //-           img(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
+        //-       .col-7
+        //-         p El bloque de motor en aleación de metal ligero, generalmente de aluminio, es más liviano que el de hierro fundido, mejorando la eficiencia y el rendimiento. Ofrece buena disipación térmica y resistencia a la corrosión, aunque requiere refuerzos para igualar la durabilidad.
+
+        //-   .tarjeta.color-primario-p10.p-4(x="40%" y="10%" numero="03" tooltip="jdjhjfkskn")
+        //-     .time-line-info__number
+        //-       span 03
+        //-     h5.mb-4 Composición <em>del bloque de cilindros</em>
+        //-     .row.justify-content-center.align-items-center
+        //-       .col-5
+        //-         figure
+        //-           img(src='@/assets/curso/temas/tema1/8.png', alt='Imagen decorativa')
+        //-       .col-7
+        //-         p Las partes principales de un bloque de motor incluyen: cilindros, donde se mueven los pistones; camisa de agua, para disipar el calor; galería de aceite, que lubrican las piezas móviles; rodamiento del cigüeñal, que convierte el movimiento lineal en rotativo; bielas, que conectan los pistones con el cigüeñal; y tapa del bloque, que sella y protege los componentes internos.
+
+        //-   .tarjeta.color-primario-p10.p-4(x="30%" y="30%" numero="04")
+        //-     .time-line-info__number
+        //-       span 04
+        //-     h5.mb-4 Cilindros en el mismo bloque
+        //-     .row.justify-content-center.align-items-center
+        //-       .col-5
+        //-         figure
+        //-           img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
+        //-       .col-7
+        //-         p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
+
+
+        ImagenInfograficaB.color-terciario
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/5.png', alt='Motor de combustión interna')
 
-          .tarjeta.color-primario-p10.p-4(x="80%" y="20%" numero="01")
-            .time-line-info__number
-              span 01
+          div(x="80%" y="20%" tooltip="Bloque de hierro fundido" numero="+")
             h5.mb-4 Bloque de hierro fundido
             .row.justify-content-center.align-items-center
-              .col-5
+              .col-md-5
                 figure
-                  img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen decorativa')
-              .col-7
+                  img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/6.png', alt='Imagen decorativa')
+              .col-md-7
                 p El bloque de hierro fundido es una estructura resistente y duradera del motor, diseñada para alojar los cilindros y otros componentes. Ofrece alta rigidez y excelente capacidad de disipación térmica, pero es más pesado que el aluminio.
 
-          .tarjeta.color-primario-p10.p-4(x="85%" y="60%" numero="02")
-            .time-line-info__number
-              span 02
+          div(x="85%" y="60%" tooltip="Bloques del motor de aleación de metal ligero" numero="+")
             h5.mb-4 Bloques del motor de aleación de metal ligero
             .row.justify-content-center.align-items-center
-              .col-5
+              .col-md-5
                 figure
-                  img(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
-              .col-7
+                  img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
+              .col-md-7
                 p El bloque de motor en aleación de metal ligero, generalmente de aluminio, es más liviano que el de hierro fundido, mejorando la eficiencia y el rendimiento. Ofrece buena disipación térmica y resistencia a la corrosión, aunque requiere refuerzos para igualar la durabilidad.
 
-          .tarjeta.color-primario-p10.p-4(x="40%" y="10%" numero="03")
-            .time-line-info__number
-              span 03
+          div(x="40%" y="10%" tooltip="Composición <em>del bloque de cilindros</em>" numero="+")
             h5.mb-4 Composición <em>del bloque de cilindros</em>
             .row.justify-content-center.align-items-center
-              .col-5
+              .col-md-5
                 figure
-                  img(src='@/assets/curso/temas/tema1/8.png', alt='Imagen decorativa')
-              .col-7
+                  img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/8.png', alt='Imagen decorativa')
+              .col-md-7
                 p Las partes principales de un bloque de motor incluyen: cilindros, donde se mueven los pistones; camisa de agua, para disipar el calor; galería de aceite, que lubrican las piezas móviles; rodamiento del cigüeñal, que convierte el movimiento lineal en rotativo; bielas, que conectan los pistones con el cigüeñal; y tapa del bloque, que sella y protege los componentes internos.
 
-          .tarjeta.color-primario-p10.p-4(x="30%" y="30%" numero="04")
-            .time-line-info__number
-              span 04
+          div(x="30%" y="30%" tooltip="Cilindros en el mismo bloque" numero="+")
             h5.mb-4 Cilindros en el mismo bloque
             .row.justify-content-center.align-items-center
-              .col-5
+              .col-md-5
                 figure
-                  img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
-              .col-7
+                  img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
+              .col-md-7
                 p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
-                
+                  
     .fullwith-bg.fullwith-bg--1
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5.z-2
       .bloque-texto-g__img(
@@ -124,7 +166,7 @@
         p En cuanto a la construcción, si bien algunos diseños antiguos o de alto rendimiento pueden emplear bloques de cilindros construidos en secciones unidas mediante pernos, la práctica actual predominante es la fabricación del bloque como una única pieza fundida (monoblock) que integra los cilindros y, en muchos casos, la carcasa del cigüeñal (SENA, 2012). Esta construcción unitaria proporciona una mayor rigidez estructural y reduce el número de juntas, disminuyendo el riesgo de fugas.
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen decorativa')(data-aos="fade-up")
+          img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/12.png', alt='Imagen decorativa')(data-aos="fade-up")
 
     .titulo-sexto.color-acento-contenido.mb-4.z-2
       h5 Tabla 1.
@@ -167,12 +209,13 @@
               h4.my-4.mt-xl-5.tarjeta-flip-title Grietas por fatiga térmica 
               p.mb-4 <strong>Causa:</strong> ciclos repetidos de calentamiento/enfriamiento. 
               p.mb-4 <strong>Diagnóstico:</strong> líquidos penetrantes fluorescentes o termografía infrarroja. 
-
+            .text-image.text-image--1
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/13.jpg')})`}")
 
       .col-10.col-md-5.col-xl-4
         .tarjeta.tarjeta-slide.derecha.tarjeta--blanca(style="box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75);")
           .tarjeta-slide__contenedor
+            .text-image.text-image--2
             .tarjeta-slide__img.tarjeta-slide__img--right(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
               h4.my-4.mt-xl-5.tarjeta-flip-title Deformación de bancadas 

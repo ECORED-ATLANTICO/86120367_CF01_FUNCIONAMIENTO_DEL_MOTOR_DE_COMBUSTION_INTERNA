@@ -392,6 +392,37 @@ figcaption
 .tarjeta-slide__contenido
   box-shadow: -2px 2px 45px -15px rgba(100,85,85,0.75)
 
+.text-image
+  transition: transform 0.1s ease-in-out
+
+.text-image--1::before
+  position: absolute
+  bottom: 20px
+  left: 50%
+  transform: translateX(-50%)
+  content: 'Grietas por fatiga térmica'
+  padding: 5px 10px
+  background-color: #45CEB3
+  z-index: 2
+  width: 70%
+  border-radius: 20px
+  text-align: center
+  font-weight: bold
+
+.text-image--2::before
+  position: absolute
+  bottom: 20px
+  left: 50%
+  transform: translateX(-50%)
+  content: 'Deformación de bancadas'
+  padding: 5px 10px
+  background-color: #45CEB3
+  z-index: 2
+  width: 70%
+  border-radius: 20px
+  text-align: center
+  font-weight: bold
+
 .slider-bg
   background-image: url(../assets/curso/temas/tema2/bg-3.png)
   background-size: cover
@@ -435,3 +466,35 @@ figcaption
   tr
     td
       text-align: left
+
+.img-infografica-b__modal
+  background-color: #E6EBED
+
+.img-infografica-b__modal__btn-cerrar i
+  color: black
+
+.img-infografica-b__modal__contenido div > *
+  color: unset !important
+
+.img-infografica-b__item__numero
+  color: white
+
+@media (min-width: 769px)
+  .img-infografica-b__item__numero
+    font-size: 25px
+
+.img-infografica-b__item
+  width: 5%
+
+.img-infografica-b__item__tooltip
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: #E6EBFB
+  border-radius: 10px
+  right: -295px
+  opacity: 0
+  width: 200px
+  top: -5px
+  left: unset
+  height: 50px
