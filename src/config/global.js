@@ -225,7 +225,7 @@ export default {
       referencia:
         'Tenango-Pirin, O. (2020). Análisis termoestructural de un pistón de motor de combustión interna con recubrimiento térmico. Instituto de Ingeniería y Tecnología.',
       tipo: 'Capítulo / Artículo',
-      link: '/downloads/Analisis-termoestructural-de-un-piston.pdf',
+      descarga: '/downloads/Analisis-termoestructural-de-un-piston.pdf',
     },
   ],
   glosario: [
