@@ -22,7 +22,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/2.png', alt='Imagen decorativa')(data-aos="fade-up")
       .col-lg-7.col-xl-8.mb-3.mb-lg-0
-        p El bloque de cilindros, también llamado monoblock, es la pieza central de un motor de combustión interna. Su función principal es alojar los cilindros, pistones, cigüeñal y otros componentes críticos. Además, distribuye las fuerzas generadas durante la combustión, integra conductos para lubricación y refrigeración, y sirve de soporte para elementos auxiliares como la bomba de agua o el alternador (Castro, 2009). Sin esta estructura, el motor no podría mantener su integridad mecánica ni operar eficientemente.
+        p El bloque de cilindros, también llamado <em>monoblock</em>, es la pieza central de un motor de combustión interna. Su función principal es alojar los cilindros, pistones, cigüeñal y otros componentes críticos. Además, distribuye las fuerzas generadas durante la combustión, integra conductos para lubricación y refrigeración, y sirve de soporte para elementos auxiliares como la bomba de agua o el alternador (Castro, 2009). Sin esta estructura, el motor no podría mantener su integridad mecánica ni operar eficientemente.
         .cajon.color-acento-contenido-ac10.p-4
           p.mb-0 El bloque de cilindros también cumple la función de distribuir las intensas fuerzas generadas durante la combustión, actuando como un elemento de rigidez que preserva la integridad mecánica del motor. Internamente, incorpora conductos diseñados para la circulación del aceite lubricante, crucial para la reducción de la fricción entre las partes móviles, y para el flujo del refrigerante, esencial para la regulación de la temperatura de funcionamiento del motor y la prevención del sobrecalentamiento. Asimismo, la superficie externa del bloque sirve como punto de anclaje para diversos componentes auxiliares de importancia vital, tales como la bomba de agua, la bomba de aceite, el alternador y los soportes del motor (SENA, 2012). En esencia, la solidez y la precisión del bloque de cilindros son indispensables para la operación eficiente del motor y su capacidad para resistir las exigencias de su funcionamiento.
 
@@ -163,7 +163,7 @@
       <br>
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-7
-        p En cuanto a la construcción, si bien algunos diseños antiguos o de alto rendimiento pueden emplear bloques de cilindros construidos en secciones unidas mediante pernos, la práctica actual predominante es la fabricación del bloque como una única pieza fundida (monoblock) que integra los cilindros y, en muchos casos, la carcasa del cigüeñal (SENA, 2012). Esta construcción unitaria proporciona una mayor rigidez estructural y reduce el número de juntas, disminuyendo el riesgo de fugas.
+        p En cuanto a la construcción, si bien algunos diseños antiguos o de alto rendimiento pueden emplear bloques de cilindros construidos en secciones unidas mediante pernos, la práctica actual predominante es la fabricación del bloque como una única pieza fundida (<em>monoblock</em>) que integra los cilindros y, en muchos casos, la carcasa del cigüeñal (SENA, 2012). Esta construcción unitaria proporciona una mayor rigidez estructural y reduce el número de juntas, disminuyendo el riesgo de fugas.
       .col-lg-5
         figure
           img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/12.png', alt='Imagen decorativa')(data-aos="fade-up")
@@ -196,10 +196,8 @@
     #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 1.3	Fallas comunes en el bloque de cilindros y su diagnóstico
 
-    p.z-2
-     A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
-    p.z-2
-     Algunas de las fallas y métodos de detección incluyen:
+    p.z-2 A pesar de su diseño robusto, el bloque de cilindros puede experimentar diversas fallas a lo largo de la vida útil del motor. La identificación y el diagnóstico temprano de estas fallas son cruciales para prevenir daños mayores y reparaciones costosas.
+    p.z-2 Algunas de las fallas y métodos de detección incluyen:
 
     .row.z-2.justify-content-center.align-items-stretch.mb-4.mb-lg-5.bg-tarjetas-gris.gap-3
       .col-10.col-md-5.col-xl-4

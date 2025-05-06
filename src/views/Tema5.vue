@@ -32,7 +32,7 @@
         .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Alojamiento del eje de levas
-            p El eje de levas se ubica en diferentes partes del motor según su diseño. En motores OHV (Overhead Valve-Valvuas en culata), está dentro del bloque, cerca del cigüeñal. En motores OHC (<em>Overhead Camshaft</em>-árbol de levas en cabeza) y DOHC (<em>Double Overhead Camshaft</em>- doble árbol de levas en cabeza), se encuentra en la culata, sobre las válvulas. Su posición permite controlar la apertura y cierre de las válvulas mediante levas, coordinando el flujo de aire y combustible para la combustión eficiente del motor.
+            p El eje de levas se ubica en diferentes partes del motor según su diseño. En motores OHV (<em>Overhead Valve</em>-Valvuas en culata), está dentro del bloque, cerca del cigüeñal. En motores OHC (<em>Overhead Camshaft</em>-árbol de levas en cabeza) y DOHC (<em>Double Overhead Camshaft</em>- doble árbol de levas en cabeza), se encuentra en la culata, sobre las válvulas. Su posición permite controlar la apertura y cierre de las válvulas mediante levas, coordinando el flujo de aire y combustible para la combustión eficiente del motor.
           .col-10.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema5/3.png', alt='Texto que describa la imagen')
@@ -62,11 +62,11 @@
         .row.justify-content-center.align-items-stretch.gap-3.gap-sm-0
           .col-md-6
             .tarjetas-rosadas__contenido
-              h6.tarjetas-rosadas__title OHV (<em>Overhead Valve</em>): 
+              h6.tarjetas-rosadas__title OHV (<em>Overhead Valve</em>) 
               p Ubicado en el bloque del motor, transmite el movimiento a las válvulas mediante varillas y balancines.
           .col-md-6
             .tarjetas-rosadas__contenido
-              h6.tarjetas-rosadas__title OHC (<em>Overhead Camshaft</em>): 
+              h6.tarjetas-rosadas__title OHC (<em>Overhead Camshaft</em>)
               p Situado en la culata, actúa directamente sobre las válvulas o mediante balancines cortos. En motores modernos, la configuración DOHC <em>(Double Overhead Camshaft)</em> utiliza dos ejes para una mayor precisión
 
       .col-lg-4.d-none.d-lg-block
@@ -102,7 +102,7 @@
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/8.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper.mb-3
-              h3.factores-slider__title Inspección de componentes: 
+              h3.factores-slider__title Inspección de componentes
             p.mb-5.mb-0.text-center Se revisan visualmente el eje, los cojinetes y los seguidores de válvula en busca de desgaste o daños.
 
           .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
@@ -110,7 +110,7 @@
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/9.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper.mb-3
-              h3.factores-slider__title Lubricación: 
+              h3.factores-slider__title Lubricación
             p.mb-5.text-center Se aplica aceite o grasa específica en los cojinetes y lóbulos para asegurar un montaje sin fricción.
 
           .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
@@ -118,7 +118,7 @@
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/10.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper.mb-3
-              h3.factores-slider__title Alineación de marcas de distribución: 
+              h3.factores-slider__title Alineación de marcas de distribución
             p.mb-5.text-center Se alinean las marcas en el eje de levas y en el cigüeñal para garantizar la sincronización de la apertura de válvulas.
 
           .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
@@ -126,7 +126,7 @@
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/11.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper.mb-3
-              h3.factores-slider__title Instalación del Eje: 
+              h3.factores-slider__title Instalación del Eje
             p.mb-5.mb-0.text-center Se coloca el eje en sus alojamientos, verificando el asentamiento correcto de los cojinetes.
 
           .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
@@ -134,7 +134,7 @@
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/12.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper.mb-3
-              h3.factores-slider__title Fijación de soportes y sistema de accionamiento: 
+              h3.factores-slider__title Fijación de soportes y sistema de accionamiento
             p.mb-5.text-center En motores OHC, se instalan las tapas de cojinete y se conecta la correa, cadena o engranajes que sincronizan el movimiento.
 
 
@@ -157,15 +157,15 @@
     .row.justify-content-center.align-items-stretch.z-2.custom-cards
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--1
-          h5.text-center.my-5 Verificación del juego axial:
+          h5.text-center.my-5 Verificación del juego axial
           p.mb-0.text-center.mb-4 Con un reloj comparador se mide el movimiento longitudinal del eje, asegurando que se encuentre dentro de las tolerancias.
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-primario-20.custom-cards__cards--2
-          h5.text-center.my-5 Ajuste del juego de válvulas: 
+          h5.text-center.my-5 Ajuste del juego de válvulas
           p.mb-0.text-center.mb-4 Se regula el espacio entre los seguidores y las válvulas utilizando tornillos de ajuste, calzas o taqués hidráulicos.
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--3
-          h5.text-center.my-5 Verificación de la sincronización: 
+          h5.text-center.my-5 Verificación de la sincronización
           p.mb-0.text-center.mb-4 Se comprueba el ángulo de apertura de las válvulas respecto al cigüeñal, utilizando herramientas de precisión o software especializado.
 
     Separador

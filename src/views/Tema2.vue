@@ -60,7 +60,7 @@
         figcaption <strong>Fuente.</strong> SENA 2025
     .fullwith-bg.fullwith-bg--1
     h3(data-aos='zoom-in-right').mb-4.z-2
-      span.motor-title.motor-title--1 Camisas húmedas: ventajas y desventajas
+      span.motor-title.motor-title--1 Camisas húmedas: características y aplicaciones
 
     .row.justify-content-center.z-2.mb-4.mb-lg-5
       .col-xl-8
@@ -150,7 +150,7 @@
               img(src='@/assets/curso/temas/tema2/11.png', alt='Texto que describa la imagen')
         .row.z-2.justify-content-center.align-items-center
           .col-lg-6
-            h4.mb-4 Medición dimensional: 
+            h4.mb-4 Medición dimensional
             p Es clave para cuantificar el desgaste. 
             p Con instrumentos como micrómetros triflautados y comparadores de interiores, se miden parámetros como el ovalamiento (tolerancia máxima de 0.03 mm en motores gasolina, según SAE J1227) y la conicidad (límite de 0.05 mm por ISO 12179:2020). 
             p.mb-4.mb-lg-0 Las mediciones se realizan en tres alturas (superior, media e inferior) y dos ejes (X/Y), comparando los resultados con las especificaciones del fabricante.
@@ -159,7 +159,7 @@
               img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
         .row.z-2.justify-content-center.align-items-center
           .col-lg-6
-            h4.mb-4 Pruebas de fuga para camisas húmedas.
+            h4.mb-4 Pruebas de fuga para camisas húmedas
             p Se aplican 3 bar de presión al sistema de refrigeración durante 15 minutos (norma ISO 11486:2017) o se usan kits de detección de hidrocarburos en el refrigerante (límite: <40 ppm). 
             p.mb-4.mb-lg-0 Indicadores como emulsión de aceite-refrigerante o pérdida de presión superior al 10% en 5 minutos señalan fallas en los sellos, requiriendo acción inmediata.  
 
@@ -168,7 +168,7 @@
               img(src='@/assets/curso/temas/tema2/13.png', alt='Texto que describa la imagen')
         .row.z-2.justify-content-center.align-items-center
           .col-lg-6
-            h4.mb-4 Reemplazo de camisas: varía según el tipo.  
+            h4.mb-4 Reemplazo de camisas: varía según el tipo 
             p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150°C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
             p <strong>En camisas húmedas</strong>, se usan juntas tóricas de EPDM resistentes a 140°C y se aplica un torque de 25-30 Nm en pernos, seguido de una prueba de presión de 2.5 bar para verificar estanqueidad. 
             p.mb-4.mb-lg-0 Es crítico evitar reutilizar sellos o forzar ajustes, ya que esto reduce hasta un 30% la vida útil del motor (Nguyen et al., 2021). Estos procedimientos, respaldados por normas internacionales, garantizan precisión y confiabilidad en el mantenimiento. 

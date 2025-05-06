@@ -147,7 +147,7 @@
           img(src='@/assets/curso/temas/tema3/12.png', alt='Ilustración decorativa')
       .col-lg-9
         h3(data-aos='zoom-in-right').mb-4.z-2
-          span.motor-title.motor-title--small Desmontaje y evaluación inicial:
+          span.motor-title.motor-title--small Desmontaje y evaluación inicial
         p Antes de cualquier intervención, se debe desmontar cuidadosamente el bloque del motor y realizar una limpieza exhaustiva de la zona de los cilindros. Esta etapa inicial es fundamental para una correcta evaluación del estado de los cilindros (Procedimiento de rectificación, sf).
 
     .row.justify-content-center.align-items-stretch.z-2.mb-4.mb-lg-5
@@ -283,7 +283,7 @@
           .tarjeta.color-acento-contenido-a10.p-4(x="25%" y="25%" numero="01")
             .time-line-info__number
               span 01
-            h5.mb-4 Inspección del motor.
+            h5.mb-4 Inspección del motor
             p Se desmonta y evalúa el desgaste de sus componentes.
 
           .tarjeta.color-acento-contenido-a10.p-4(x="40%" y="45%" numero="02")
@@ -292,9 +292,9 @@
             h5.mb-4 Rectificación de Cilindros
             p.mb-3 El proceso es el siguiente:
             ul.ps-3
-              li <strong>Alesado:</strong> Se agranda el diámetro de los cilindros con una máquina rectificadora.
-              li <strong>Bruñido:</strong> Se realiza un acabado con piedra abrasiva para mejorar la adherencia del aceite.
-              li <strong>Medición final:</strong> Se verifica que el diámetro sea uniforme y dentro de tolerancias.s.
+              li <strong>Alesado:</strong> se agranda el diámetro de los cilindros con una máquina rectificadora.
+              li <strong>Bruñido:</strong> se realiza un acabado con piedra abrasiva para mejorar la adherencia del aceite.
+              li <strong>Medición final:</strong> se verifica que el diámetro sea uniforme y dentro de tolerancias.
 
           .tarjeta.color-acento-contenido-a10.p-4(x="55%" y="65%" numero="03")
             .time-line-info__number

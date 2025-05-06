@@ -18,6 +18,8 @@
     #t_4_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 4.1.	Componentes del pistón y su función
 
+    p.mb-4.mb-lg-5.z-2 El pistón cumple roles críticos. Entre sus componentes se encuentran:
+
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-2
       .d-none.d-xl-block.col-xl-3
         figure
@@ -80,14 +82,14 @@
           .col-md-7.mb-4.mb-md-0
             h4 Partes de un pistón
             ul.ps-3
-              li <strong>Anillo superior de compresión</strong>: Sella la cámara de combustión y evita fugas de gases.
-              li <strong>Anillo secundario de compresión</strong>: Refuerza el sellado y ayuda a eliminar el exceso de aceite.
-              li <strong>Anillo de aceite</strong>: Controla la lubricación en las paredes del cilindro y reduce el consumo de aceite.
-              li <strong>Cabeza del pistón</strong>: Zona superior que soporta la presión y el calor de la combustión.
-              li <strong>Falda</strong>: Parte inferior que mantiene la estabilidad dentro del cilindro.
-              li <strong>Segmentos o aros</strong>: Garantizan el sellado de la cámara de combustión.
-              li <strong>Perno de pistón</strong>: Conecta el pistón con la biela y permite el movimiento.
-              li <strong>Ranuras</strong>: Espacios para alojar los segmentos.
+              li <strong>Anillo superior de compresión</strong>: sella la cámara de combustión y evita fugas de gases.
+              li <strong>Anillo secundario de compresión</strong>: refuerza el sellado y ayuda a eliminar el exceso de aceite.
+              li <strong>Anillo de aceite</strong>: controla la lubricación en las paredes del cilindro y reduce el consumo de aceite.
+              li <strong>Cabeza del pistón</strong>: zona superior que soporta la presión y el calor de la combustión.
+              li <strong>Falda</strong>: parte inferior que mantiene la estabilidad dentro del cilindro.
+              li <strong>Segmentos o aros</strong>: garantizan el sellado de la cámara de combustión.
+              li <strong>Perno de pistón</strong>: conecta el pistón con la biela y permite el movimiento.
+              li <strong>Ranuras</strong>: espacios para alojar los segmentos.
               li <strong>Tapa de Biela</strong>: función principal es sujetar el muñón del cigüeñal, permitiendo el movimiento rotativo de la biela.
         
           .col-10.col-md-4
@@ -112,9 +114,11 @@
           .col-md-7.mb-4.mb-md-0
             h4 Innovaciones en pistones
             p Las innovaciones en pistones han mejorado su rendimiento, eficiencia y durabilidad, entre estas tenemos: 
-            p <strong>Pistones de aleaciones avanzadas</strong>: Uso de materiales como aluminio forjado y recubrimientos cerámicos para reducir peso y mejorar la disipación de calor.
-            p <strong>Diseños de baja fricción</strong>: Superficies con recubrimientos especiales (grafito, DLC) que minimizan la fricción y el desgaste.
-            p <strong>Estructuras reforzadas</strong>: Geometrías optimizadas para soportar mayores cargas en motores de alto rendimiento. Pistones con refrigeración interna: Canales internos para la circulación de aceite que reducen la temperatura de trabajo. Tecnología de pistón asimétrico: Diseños que reducen el contacto con la pared del cilindro, disminuyendo pérdidas por fricción y mejorando la eficiencia del motor.
+            p <strong>Pistones de aleaciones avanzadas</strong>: uso de materiales como aluminio forjado y recubrimientos cerámicos para reducir peso y mejorar la disipación de calor.
+            p <strong>Diseños de baja fricción</strong>: superficies con recubrimientos especiales (grafito, DLC) que minimizan la fricción y el desgaste.
+            p <strong>Estructuras reforzadas</strong>: geometrías optimizadas para soportar mayores cargas en motores de alto rendimiento.
+            p <strong>Pistones con refrigeración interna</strong>: canales internos para la circulación de aceite que reducen la temperatura de trabajo.
+            p <strong>Tecnología de pistón asimétrico:</strong> diseños que reducen el contacto con la pared del cilindro, disminuyendo pérdidas por fricción y mejorando la eficiencia del motor.
         
           .col-10.col-md-4
             figure
@@ -125,7 +129,7 @@
         .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistones Planos
-            p El pistón plano tiene una corona sin elevaciones ni depresiones, lo que proporciona una combustión eficiente. Se usa en motores de alto rendimiento y bajo consumo. Su diseño reduce puntos calientes y mejora la relación de compresión sin interferencias
+            p El pistón plano tiene una corona sin elevaciones ni depresiones, lo que proporciona una combustión eficiente. Se usa en motores de alto rendimiento y bajo consumo. Su diseño reduce puntos calientes y mejora la relación de compresión sin interferencias.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/16.png', alt='Pistones Planos')
@@ -145,8 +149,8 @@
               img(src='@/assets/curso/temas/tema4/18.png', alt='Pistón cóncavo')
         .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
-            h4.mb-4 Pistón de cabeza tronco-cónica.
-            p Los pistones de cabeza tronco-cónica tienen una corona con forma de cono truncado, mejorando la mezcla aire-combustible y la eficiencia de combustión. Se utilizan en motores de alto rendimiento, optimizando el flujo de gases y reduciendo el riesgo de detonación
+            h4.mb-4 Pistón de cabeza tronco-cónica
+            p Los pistones de cabeza tronco-cónica tienen una corona con forma de cono truncado, mejorando la mezcla aire-combustible y la eficiencia de combustión. Se utilizan en motores de alto rendimiento, optimizando el flujo de gases y reduciendo el riesgo de detonación.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/19.png', alt='Pistón de cabeza tronco-cónica.')
@@ -183,16 +187,16 @@
     .row.justify-content-center.align-items-stretch.z-2.custom-cards
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--4
-          h5.text-center.my-5 Orientación: 
+          h5.text-center.my-5 Orientación
           p.mb-0.text-center.mb-4 Se debe alinear correctamente el pistón y la biela, utilizando las marcas de referencia indicadas por el fabricante.
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-primario-20.custom-cards__cards--5
-          h5.text-center.my-5 Instalación del bulón:  
-          p.mb-0.text-center.mb-4 Se inserta el bulón de acuerdo con el diseño (ajuste a presión o mediante circlips) utilizando herramientas específicas para evitar golpes.
+          h5.text-center.my-5 Instalación del bulón
+          p.mb-0.text-center.mb-4 Se inserta el bulón de acuerdo con el diseño (ajuste a presión o mediante <em>circlips</em>) utilizando herramientas específicas para evitar golpes.
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--6
-          h5.text-center.my-5 Colocación de los anillos: 
-          p.mb-0.text-center.mb-4 Con ayuda de alicates especiales, se instalan los anillos en sus ranuras, cuidando que las aberturas (gaps) queden desfasadas conforme a lo especificado.
+          h5.text-center.my-5 Colocación de los anillos
+          p.mb-0.text-center.mb-4 Con ayuda de alicates especiales, se instalan los anillos en sus ranuras, cuidando que las aberturas (<em>gaps</em>) queden desfasadas conforme a lo especificado.
 
 
     .titulo-sexto.color-acento-contenido.mb-4

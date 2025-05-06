@@ -300,7 +300,7 @@ export default {
         'incremento del diámetro del cilindro para eliminar desgaste excesivo y mejorar sellado.',
     },
     {
-      termino: 'Sobremedida',
+      termino: 'Válvulas',
       significado:
         'dispositivos ubicados en la culata que regulan la entrada de mezcla aire-combustible y la salida de gases de escape en cada ciclo del motor.',
     },
