@@ -70,7 +70,7 @@
       .bg-gray.p-4.py-md-5(titulo="Que es un pistón" :icono="require('@/assets/curso/temas/tema4/8.svg')")
         .row.align-items-center.justify-content-around
           .col-md-7.mb-4.mb-md-0
-            h4 Que es un pistón
+            h4 ¿Qué es un pistón?
             p Un pistón es un componente cilíndrico móvil dentro del motor de combustión interna. Su función principal es recibir la presión generada por la combustión del aire y combustible, transformándola en movimiento mecánico. Se desliza dentro del cilindro, transmitiendo fuerza al cigüeñal a través de la biela. Está diseñado para soportar altas temperaturas y presiones, garantizando un funcionamiento eficiente del motor.
         
           .col-10.col-md-4
@@ -128,11 +128,11 @@
       SlyderA(tipo="b")
         .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
-            h4.mb-4 Pistones Planos
+            h4.mb-4 Pistones planos
             p El pistón plano tiene una corona sin elevaciones ni depresiones, lo que proporciona una combustión eficiente. Se usa en motores de alto rendimiento y bajo consumo. Su diseño reduce puntos calientes y mejora la relación de compresión sin interferencias.
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema4/16.png', alt='Pistones Planos')
+              img(src='@/assets/curso/temas/tema4/16.png', alt='Pistones planos')
         .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
             h4.mb-4 Pistones abombados
@@ -163,7 +163,7 @@
               img(src='@/assets/curso/temas/tema4/20.png', alt='Pistón asimétrico')
         .row.z-2.justify-content-evenly.align-items-center
           .col-md-6
-            h4.mb-4 Pistones Refrigerados
+            h4.mb-4 Pistones refrigerados
             p Los pistones refrigerados tienen canales internos para la circulación de aceite, disipando el calor y evitando sobrecalentamiento. Mejoran la eficiencia térmica, reducen el desgaste y aumentan la durabilidad en motores de alto rendimiento y alta exigencia térmica.
           .col-md-4
             figure

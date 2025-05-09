@@ -25,7 +25,7 @@
 
     .row.justify-content-center.z-2.mb-4.mb-lg-5
       .col-xl-8
-        p.mb-4 Las camisas secas, también conocidas como <em>"sleeves"</em> o <em>"liners"</em>, son tubos delgados de material resistente que se insertan a presión en el bloque de cilindros. Su característica principal radica en que no establece contacto directo con el refrigerante del motor (SENA, 2012). La transferencia de calor desde la camisa hacia el refrigerante se efectúa a través del material del bloque.
+        p.mb-4 Las camisas secas, también conocidas como <em>sleeves</em> o <em>liners</em>, son tubos delgados de material resistente que se insertan a presión en el bloque de cilindros. Su característica principal radica en que no establece contacto directo con el refrigerante del motor (SENA, 2012). La transferencia de calor desde la camisa hacia el refrigerante se efectúa a través del material del bloque.
         .row.justify-content-center.align-items-center.z-2
           .col-lg-6.p-2
             .pills
@@ -44,7 +44,7 @@
     figure.z-2.mb-4
       img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/4.png", alt="Imagen decorativa")
 
-    p.mb-4.mb-lg-5.z-2 La camisa seca es un revestimiento desmontable dentro del cilindro, sin contacto directo con el refrigerante. Protege contra el desgaste, facilita reparaciones y mejora la disipación del calor, asegurando mayor durabilidad y eficiencia en el motor
+    p.mb-4.mb-lg-5.z-2 La camisa seca es un revestimiento desmontable dentro del cilindro, sin contacto directo con el refrigerante. Protege contra el desgaste, facilita reparaciones y mejora la disipación del calor, asegurando mayor durabilidad y eficiencia en el motor.
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-10
@@ -95,7 +95,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 2.
-          span Comparación entre Camisas Secas y Húmedas
+          span Comparación entre camisas secas y húmedas
         .tabla-a.color-acento-contenido.z-2.tabla-custom
           table
             caption <strong>Fuente.</strong> Sena, 2025
@@ -103,7 +103,7 @@
               tr(style="background-color: #F2D6D3;")
                 th Característica
                 th Camisas secas
-                th Camisas Húmedas
+                th Camisas húmedas
             tbody
               tr(style="background-color: #FFFFFF;")
                 td Contacto con refrigerante
@@ -161,7 +161,7 @@
           .col-lg-6
             h4.mb-4 Pruebas de fuga para camisas húmedas
             p Se aplican 3 bar de presión al sistema de refrigeración durante 15 minutos (norma ISO 11486:2017) o se usan kits de detección de hidrocarburos en el refrigerante (límite: <40 ppm). 
-            p.mb-4.mb-lg-0 Indicadores como emulsión de aceite-refrigerante o pérdida de presión superior al 10% en 5 minutos señalan fallas en los sellos, requiriendo acción inmediata.  
+            p.mb-4.mb-lg-0 Indicadores como emulsión de aceite-refrigerante o pérdida de presión superior al 10 % en 5 minutos señalan fallas en los sellos, requiriendo acción inmediata.  
 
           .col-10.col-lg-6.col-xl-4
             figure
@@ -171,7 +171,7 @@
             h4.mb-4 Reemplazo de camisas: varía según el tipo 
             p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150°C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
             p <strong>En camisas húmedas</strong>, se usan juntas tóricas de EPDM resistentes a 140°C y se aplica un torque de 25-30 Nm en pernos, seguido de una prueba de presión de 2.5 bar para verificar estanqueidad. 
-            p.mb-4.mb-lg-0 Es crítico evitar reutilizar sellos o forzar ajustes, ya que esto reduce hasta un 30% la vida útil del motor (Nguyen et al., 2021). Estos procedimientos, respaldados por normas internacionales, garantizan precisión y confiabilidad en el mantenimiento. 
+            p.mb-4.mb-lg-0 Es crítico evitar reutilizar sellos o forzar ajustes, ya que esto reduce hasta un 30 % la vida útil del motor (Nguyen et al., 2021). Estos procedimientos, respaldados por normas internacionales, garantizan precisión y confiabilidad en el mantenimiento. 
           .col-10.col-lg-6.col-xl-4
             figure
               img(src='@/assets/curso/temas/tema2/14.png', alt='Texto que describa la imagen')
