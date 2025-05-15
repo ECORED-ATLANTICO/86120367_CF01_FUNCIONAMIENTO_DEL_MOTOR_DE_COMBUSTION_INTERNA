@@ -333,11 +333,6 @@ export default {
     },
     {
       referencia:
-        '<strong>Redondo, L. (2021). Diseño y análisis de componentes críticos en motores: Pistones y bielas. Ingeniería Mecánica Aplicada, 15(3), 45-62.',
-      link: 'https://doi.org/10.1016/j.ima.2021.03.004',
-    },
-    {
-      referencia:
         '<strong>ASTM International</strong>. (2019). ASTM B94-19: Standard specification for copper-alloy die castings. ASTM.',
       link: '',
     },
