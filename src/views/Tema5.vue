@@ -81,7 +81,7 @@
           h5 Figura 13.
           span Esquema comparativo de configuraciones OHV y OHC
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7.png", alt="Esquema comparativo de configuraciones OHV y OHC")
-        figcaption <strong>Fuente.</strong> SENA 2025
+        figcaption <strong>Fuente</strong>. SENA, 2025
     
     Separador
 
@@ -144,7 +144,7 @@
           h5 Figura 14.
           span Alineación de marcas de distribución e instalación del eje de levas
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/13.jpg", alt="Alineación de marcas de distribución e instalación del eje de levas")
-        figcaption <strong>Fuente.</strong> SENA 2025
+        figcaption <strong>Fuente</strong>. SENA, 2025
 
     Separador
     
@@ -166,7 +166,7 @@
       .col-md-6.col-lg-4.col-xl-3.mb-5
         .custom-cards__cards.bg-acento-botones-20.custom-cards__cards--3
           h5.text-center.my-5 Verificación de la sincronización
-          p.mb-0.text-center.mb-4 Se comprueba el ángulo de apertura de las válvulas respecto al cigüeñal, utilizando herramientas de precisión o software especializado.
+          p.mb-0.text-center.mb-4 Se comprueba el ángulo de apertura de las válvulas respecto al cigüeñal, utilizando herramientas de precisión o <em>software</em> especializado.
 
     Separador
 

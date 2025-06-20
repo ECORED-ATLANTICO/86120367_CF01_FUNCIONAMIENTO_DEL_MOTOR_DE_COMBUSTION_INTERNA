@@ -32,7 +32,7 @@
           h5 Figura 1.
           span Definición y función del bloque de cilindros
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/3.png", alt="Motor")
-        figcaption Fuente SENA 2025
+        figcaption <strong>Fuente</strong>. SENA, 2025
 
     Separador
 
@@ -51,56 +51,6 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8
-        //- ImagenInfografica.color-terciario.time-line-info
-        //-   template(v-slot:imagen)
-        //-     figure
-        //-       img(src='@/assets/curso/temas/tema1/5.png', alt='Motor de combustión interna')
-
-        //-   .tarjeta.color-primario-p10.p-4(x="80%" y="20%" numero="01")
-        //-     .time-line-info__number
-        //-       span 01
-        //-     h5.mb-4 Bloque de hierro fundido
-        //-     .row.justify-content-center.align-items-center
-        //-       .col-5
-        //-         figure
-        //-           img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen decorativa')
-        //-       .col-7
-        //-         p El bloque de hierro fundido es una estructura resistente y duradera del motor, diseñada para alojar los cilindros y otros componentes. Ofrece alta rigidez y excelente capacidad de disipación térmica, pero es más pesado que el aluminio.
-
-        //-   .tarjeta.color-primario-p10.p-4(x="85%" y="60%" numero="02")
-        //-     .time-line-info__number
-        //-       span 02
-        //-     h5.mb-4 Bloques del motor de aleación de metal ligero
-        //-     .row.justify-content-center.align-items-center
-        //-       .col-5
-        //-         figure
-        //-           img(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
-        //-       .col-7
-        //-         p El bloque de motor en aleación de metal ligero, generalmente de aluminio, es más liviano que el de hierro fundido, mejorando la eficiencia y el rendimiento. Ofrece buena disipación térmica y resistencia a la corrosión, aunque requiere refuerzos para igualar la durabilidad.
-
-        //-   .tarjeta.color-primario-p10.p-4(x="40%" y="10%" numero="03" tooltip="jdjhjfkskn")
-        //-     .time-line-info__number
-        //-       span 03
-        //-     h5.mb-4 Composición <em>del bloque de cilindros</em>
-        //-     .row.justify-content-center.align-items-center
-        //-       .col-5
-        //-         figure
-        //-           img(src='@/assets/curso/temas/tema1/8.png', alt='Imagen decorativa')
-        //-       .col-7
-        //-         p Las partes principales de un bloque de motor incluyen: cilindros, donde se mueven los pistones; camisa de agua, para disipar el calor; galería de aceite, que lubrican las piezas móviles; rodamiento del cigüeñal, que convierte el movimiento lineal en rotativo; bielas, que conectan los pistones con el cigüeñal; y tapa del bloque, que sella y protege los componentes internos.
-
-        //-   .tarjeta.color-primario-p10.p-4(x="30%" y="30%" numero="04")
-        //-     .time-line-info__number
-        //-       span 04
-        //-     h5.mb-4 Cilindros en el mismo bloque
-        //-     .row.justify-content-center.align-items-center
-        //-       .col-5
-        //-         figure
-        //-           img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
-        //-       .col-7
-        //-         p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
-
-
         ImagenInfograficaB.color-terciario
           template(v-slot:imagen)
             figure
@@ -124,8 +74,8 @@
               .col-md-7
                 p El bloque de motor en aleación de metal ligero, generalmente de aluminio, es más liviano que el de hierro fundido, mejorando la eficiencia y el rendimiento. Ofrece buena disipación térmica y resistencia a la corrosión, aunque requiere refuerzos para igualar la durabilidad.
 
-          div(x="40%" y="10%" tooltip="Composición <em>del bloque de cilindros</em>" numero="+")
-            h5.mb-4 Composición <em>del bloque de cilindros</em>
+          div(x="40%" y="10%" tooltip="Composición del bloque de cilindros" numero="+")
+            h5.mb-4 Composición del bloque de cilindros
             .row.justify-content-center.align-items-center
               .col-md-5
                 figure
@@ -140,7 +90,7 @@
                 figure
                   img.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/9.png', alt='Imagen decorativa')
               .col-md-7
-                p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación
+                p Los cilindros son elementos fundamentales del bloque de motor, donde ocurre la combustión del aire y el combustible para generar energía. Están mecanizados directamente en el bloque y alojan los pistones, que se mueven en su interior. Su número y disposición determinan la configuración del motor, como en línea, en V o bóxer. Además, cuentan con recubrimientos especiales o camisas para reducir el desgaste y mejorar la refrigeración y lubricación.
                   
     .fullwith-bg.fullwith-bg--1
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4.mb-xl-5.z-2
@@ -157,7 +107,7 @@
           h5 Figura 2.
           span Bloque de cilindros y sus materiales
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/11.png", alt="Motor")
-        figcaption Fuente SENA 2025
+        figcaption <strong>Fuente</strong>. SENA, 2025
 
     .d-block.my-3
       <br>
@@ -170,11 +120,11 @@
 
     .titulo-sexto.color-acento-contenido.mb-4.z-2
       h5 Tabla 1.
-      span Definición y función del bloque de cilindros
+      span Ventajas y desventajas de los materiales del bloque de cilindros
 
     .tabla-a.color-acento-contenido.z-2
       table
-        caption <strong>Fuente.</strong> Sena, 2025
+        caption <strong>Fuente.</strong> SENA, 2025
         thead
           tr(style="background-color: #F2D6D3;")
             th Material
@@ -226,7 +176,7 @@
           h5 Figura 3.
           span Termografía de puntos críticos en el bloque
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/15.jpg", alt="Termografía en un motor")
-        figcaption Fuente SENA 2025
+        figcaption <strong>Fuente</strong>. SENA, 2025
 
 
 
