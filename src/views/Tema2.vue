@@ -47,16 +47,12 @@
     p.mb-4.mb-lg-5.z-2 La camisa seca es un revestimiento desmontable dentro del cilindro, sin contacto directo con el refrigerante. Protege contra el desgaste, facilita reparaciones y mejora la disipación del calor, asegurando mayor durabilidad y eficiencia en el motor.
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-lg-10
-        img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5-mobile.png", alt="Corte transversal de bloque con camisa seca")
-        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5.png", alt="Corte transversal de bloque con camisa seca")
-
-    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-10.col-lg-8
+      .col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Corte transversal de bloque con camisa seca
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/6.png", alt="Corte transversal de bloque con camisa seca")
+        img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5-mobile.png", alt="Corte transversal de bloque con camisa seca")
+        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5.png", alt="Corte transversal de bloque con camisa seca")
         figcaption <strong>Fuente.</strong> SENA, 2025
     .fullwith-bg.fullwith-bg--1
     h3(data-aos='zoom-in-right').mb-4.z-2
@@ -80,14 +76,14 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 5.
+          span Corte de bloque con camisa húmeda y circulación de refrigerante
         img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9-mobile.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-8
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 5.
-          span Corte de bloque con camisa húmeda y circulación de refrigerante
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
         figcaption <strong>Fuente</strong>. SENA, 2025
 

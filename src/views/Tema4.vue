@@ -66,7 +66,7 @@
               h4.factores-slider__title.mb-4 Biela
             p.mb-4.text-center Transforma el movimiento lineal del pistón en rotación del cigüeñal (Redondo, 2021).
 
-    TabsB.color-acento-botones.z-2.motor-tabs
+    TabsB.color-acento-botones.z-2.motor-tabs.mb-4.mb-lg-5
       .bg-gray.p-4.py-md-5(titulo="Que es un pistón" :icono="require('@/assets/curso/temas/tema4/8.svg')")
         .row.align-items-center.justify-content-around
           .col-md-7.mb-4.mb-md-0

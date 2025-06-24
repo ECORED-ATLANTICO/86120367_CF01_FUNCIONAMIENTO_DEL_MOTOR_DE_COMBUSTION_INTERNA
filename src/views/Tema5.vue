@@ -76,11 +76,12 @@
 
     .fullwith-bg.fullwith-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-10.col-lg-8
+      .col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 13.
           span Esquema comparativo de configuraciones OHV y OHC
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7.png", alt="Esquema comparativo de configuraciones OHV y OHC")
+        img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7-mobile.png", alt="Esquema comparativo de configuraciones OHV y OHC")
+        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7.png", alt="Esquema comparativo de configuraciones OHV y OHC")
         figcaption <strong>Fuente</strong>. SENA, 2025
     
     Separador
@@ -94,7 +95,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider.z-2
       .d-none.d-xl-block.col-xl-3
         figure
-          img(src='@/assets/curso/temas/tema4/2.png', alt='Imagen de un mecánico')(data-aos="fade-up")
+          img(src='@/assets/curso/temas/tema5/21.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-9.mb-3.mb-lg-0
         SlyderF(columnas="col-md-6")
           .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5

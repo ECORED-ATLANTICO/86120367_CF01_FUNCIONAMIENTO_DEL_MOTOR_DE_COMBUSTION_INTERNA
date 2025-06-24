@@ -86,8 +86,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 6.
           span Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación
-        img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8-mobile.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
-        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
+        img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8-mobile.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
+        img.d-none.d-sm-block(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
         figcaption <strong>Fuente</strong>. SENA, 2025
 
     Separador

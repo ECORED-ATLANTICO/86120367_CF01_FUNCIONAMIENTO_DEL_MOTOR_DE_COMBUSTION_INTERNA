@@ -31,7 +31,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Definición y función del bloque de cilindros
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/3.png", alt="Motor")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/3.png", alt="Vista en perspectiva de un bloque de cilindros de un motor de combustión interna de gran cilindrada. Es un diseño en V con ocho cilindros por bancada, mostrando los orificios de los cilindros, los conductos de refrigeración y los soportes del cigüeñal.")
         figcaption <strong>Fuente</strong>. SENA, 2025
 
     Separador
