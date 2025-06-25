@@ -82,7 +82,7 @@
           span Esquema comparativo de configuraciones OHV y OHC
         img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7-mobile.png", alt="Esquema comparativo de configuraciones OHV y OHC")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema5/7.png", alt="Esquema comparativo de configuraciones OHV y OHC")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
     
     Separador
 
@@ -145,7 +145,7 @@
           h5 Figura 14.
           span Alineación de marcas de distribución e instalación del eje de levas
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema5/13.jpg", alt="Alineación de marcas de distribución e instalación del eje de levas")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
     

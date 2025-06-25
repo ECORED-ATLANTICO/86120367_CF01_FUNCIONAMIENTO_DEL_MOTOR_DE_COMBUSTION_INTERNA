@@ -53,7 +53,7 @@
           span Corte transversal de bloque con camisa seca
         img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5-mobile.png", alt="Corte transversal de bloque con camisa seca")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5.png", alt="Corte transversal de bloque con camisa seca")
-        figcaption <strong>Fuente.</strong> SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
     .fullwith-bg.fullwith-bg--1
     h3(data-aos='zoom-in-right').mb-4.z-2
       span.motor-title.motor-title--1 Camisas húmedas: características y aplicaciones
@@ -85,7 +85,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-8
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-lg-8
@@ -94,7 +94,7 @@
           span Comparación entre camisas secas y húmedas
         .tabla-a.color-acento-contenido.z-2.tabla-custom
           table
-            caption <strong>Fuente.</strong> Sena, 2025
+            caption <strong>Fuente:</strong> SENA, 2025.
             thead
               tr(style="background-color: #F2D6D3;")
                 th Característica

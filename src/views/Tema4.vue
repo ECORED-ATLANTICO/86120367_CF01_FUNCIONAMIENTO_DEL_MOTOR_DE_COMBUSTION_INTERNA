@@ -177,7 +177,7 @@
           h5 Figura 10.
           span Esquema del pistón y sus componentes principales
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/22.png", alt="Esquema del pistón y sus componentes principales.")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
 
@@ -207,7 +207,7 @@
     img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-mobile.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
     img.d-none.d-sm-block.d-lg-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-tablet.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
     img.d-none.d-lg-block(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
-    figcaption <strong>Fuente</strong>. SENA, 2025
+    figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
     #t_4_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
@@ -247,9 +247,9 @@
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 12.
-          span  Diagrama del uso del compresor de anillos e inserción del pistón
+          span  Uso del compresor de anillos e inserción del pistón
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/31.png", alt=" Diagrama del uso del compresor de anillos e inserción del pistón")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
 

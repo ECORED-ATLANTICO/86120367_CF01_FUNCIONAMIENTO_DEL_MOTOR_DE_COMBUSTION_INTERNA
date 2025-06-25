@@ -88,7 +88,7 @@
           span Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación
         img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8-mobile.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
         img.d-none.d-sm-block(data-aos="fade-up")(src="@/assets/curso/temas/tema3/8.png", alt="Análisis de desgaste y deformaciones en cilindros: parámetros críticos para rectificación")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
     
@@ -191,7 +191,7 @@
           h5 Figura 7.
           span Bloque motor en etapa de inspección previa
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/16.png", alt="Bloque motor en etapa de inspección previa")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     h3(data-aos='zoom-in-right').mb-4.z-2
       span.motor-title.motor-title--small Medición y análisis de desgaste
@@ -237,7 +237,7 @@
           h5 Figura 8.
           span Puntos de medición de diámetro interior en cilindro
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/21.png", alt="Puntos de medición de diámetro interior en cilindro")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     h3(data-aos='zoom-in-right').mb-4.z-2.mb-lg-5
       span.motor-title.motor-title--1 Técnicas de rectificación y reacondicionamiento
@@ -330,7 +330,7 @@
           h5 Figura 9.
           span Proceso de acabado superficial por bruñido en cilindro
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema3/26.jpg", alt="Puntos de medición de diámetro interior en cilindro")
-        figcaption <strong>Fuente</strong>. SENA, 2025
+        figcaption <strong>Fuente:</strong> SENA, 2025.
 
 
 
