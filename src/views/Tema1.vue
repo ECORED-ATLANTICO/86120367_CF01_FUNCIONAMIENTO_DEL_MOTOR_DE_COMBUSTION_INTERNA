@@ -31,7 +31,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Definición y función del bloque de cilindros
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/3.png", alt="Vista en perspectiva de un bloque de cilindros de un motor de combustión interna de gran cilindrada. Es un diseño en V con ocho cilindros por bancada, mostrando los orificios de los cilindros, los conductos de refrigeración y los soportes del cigüeñal.")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/3.png", alt="La figura 1 muestra con corte lateral de un bloque de cilindros del motor de combustión a gasolina.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
@@ -106,7 +106,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Bloque de cilindros y sus materiales
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/11.png", alt="Motor")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/11.png", alt="En la figura 2 se ilustra un bloque de cilindros en un corte transversal.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     .d-block.my-3
@@ -175,7 +175,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.
           span Termografía de puntos críticos en el bloque
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/15.jpg", alt="Termografía en un motor")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/15.jpg", alt="En la figura 3, ilustran los puntos críticos de calor en el bloque de cilindros.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
 

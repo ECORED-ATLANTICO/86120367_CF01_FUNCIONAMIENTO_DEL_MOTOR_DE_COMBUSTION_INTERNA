@@ -313,17 +313,17 @@ export default {
     },
     {
       referencia:
-        '<strong>Nguyen, T., Smith, J., & García, R.</strong> (2019). Thermal performance analysis of wet cylinder liners in internal combustion engines. SAE Technical Paper, 2019-01-2356.',
+        '<strong>Nguyen, T., Smith, J., & García, R.</strong> (2019). <em>Thermal performance analysis of wet cylinder liners in internal combustion engines</em>. SAE Technical Paper, 2019-01-2356.',
       link: 'https://doi.org/10.4271/2019-01-2356',
     },
     {
       referencia:
-        '<strong>SAE International.</strong> (2018). J1227: Standard for cylinder bore wear measurement in gasoline engines. SAE.',
+        '<strong>SAE International.</strong> (2018). J1227: <em>Standard for cylinder bore wear measurement in gasoline engines.</em> SAE.',
       link: '',
     },
     {
       referencia:
-        '<strong>ISO.</strong> (2020). ISO 12179: Geometrical product specifications (GPS)—Surface texture: Profile method—Calibration of contact (stylus) instruments.',
+        '<strong>ISO.</strong> (2020). ISO 12179: <em>Geometrical product specifications (GPS)—Surface texture: Profile method—Calibration of contact (stylus) instruments.</em>',
       link: 'https://www.iso.org/standard/72758.html ISO',
     },
     {
@@ -333,7 +333,7 @@ export default {
     },
     {
       referencia:
-        '<strong>ASTM International</strong>. (2019). ASTM B94-19: Standard specification for copper-alloy die castings. ASTM.',
+        '<strong>ASTM International</strong>. (2019). ASTM B94-19: <em>Standard specification for copper-alloy die castings.</em> ASTM.',
       link: '',
     },
   ],
@@ -363,7 +363,7 @@ export default {
           centro: '',
         },
         {
-          nombre: 'Heydy Cristina Gonzalez Garcia',
+          nombre: 'Heydy Cristina González García',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
@@ -398,7 +398,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Maria Fernanda Morales Angulo',
+          nombre: 'María Fernanda Morales Angulo',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

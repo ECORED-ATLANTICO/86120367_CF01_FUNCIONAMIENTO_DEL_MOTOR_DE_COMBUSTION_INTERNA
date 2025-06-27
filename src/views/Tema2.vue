@@ -51,8 +51,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Corte transversal de bloque con camisa seca
-        img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5-mobile.png", alt="Corte transversal de bloque con camisa seca")
-        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5.png", alt="Corte transversal de bloque con camisa seca")
+        img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5-mobile.png", alt="La figura 4 ilustra un corte transversal de bloque con camisa seca y se enuncian sus partes: cámara de agua, camisa seca y metal entre la camisa de y la cámara de agua.")
+        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/5.png", alt="La figura 4 ilustra un corte transversal de bloque con camisa seca y se enuncian sus partes: cámara de agua, camisa seca y metal entre la camisa de y la cámara de agua.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
     .fullwith-bg.fullwith-bg--1
     h3(data-aos='zoom-in-right').mb-4.z-2
@@ -79,12 +79,12 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5.
           span Corte de bloque con camisa húmeda y circulación de refrigerante
-        img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9-mobile.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
-        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
+        img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9-mobile.png", alt="Se ilustra un corte de bloque con camisa húmeda y la circulación del refrigerante en su interior.")
+        img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9.png", alt="Se ilustra un corte de bloque con camisa húmeda y la circulación del refrigerante en su interior.")
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-8
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Corte de bloque con camisa húmeda y circulación de refrigerante")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Se ilustra un corte de bloque con camisa húmeda y la circulación del refrigerante en su interior.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     .row.justify-content-center.align-items-center.z-2.mb-4

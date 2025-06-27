@@ -176,7 +176,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 10.
           span Esquema del pistón y sus componentes principales
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/22.png", alt="Esquema del pistón y sus componentes principales.")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/22.png", alt="En la figura 10, se ilustra un pistón y sus diferentes partes, a saber: cabeza, anillo superior de compresión, segundo anillo de compresión, anillo de aceite, perno, falda, brazo de la biela, cojinetes, tornillos de la biela y tapa de la biela.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
@@ -204,9 +204,9 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Figura 11.
       span Orientación correcta del pistón, la biela y uso de alicates para anillos
-    img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-mobile.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
-    img.d-none.d-sm-block.d-lg-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-tablet.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
-    img.d-none.d-lg-block(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35.png", alt="Ensamble de pistones y bielas, bulones flotantes, ligero giro de los anillos,montaje de la biela de sujeción")
+    img.d-sm-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-mobile.png", alt="Se ilustra la forma correcta de orientar el pistón, la biela y el uso de alicates y los pasos a seguir: ensamblaje de pistones y bielas, bulones flotantes, ligero giro de los anillos y montaje de la biela de sujeción.")
+    img.d-none.d-sm-block.d-lg-none(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35-tablet.png", alt="Se ilustra la forma correcta de orientar el pistón, la biela y el uso de alicates y los pasos a seguir: ensamblaje de pistones y bielas, bulones flotantes, ligero giro de los anillos y montaje de la biela de sujeción.")
+    img.d-none.d-lg-block(data-aos="fade-up")(src="@/assets/curso/temas/tema4/35.png", alt="Se ilustra la forma correcta de orientar el pistón, la biela y el uso de alicates y los pasos a seguir: ensamblaje de pistones y bielas, bulones flotantes, ligero giro de los anillos y montaje de la biela de sujeción.")
     figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
@@ -248,7 +248,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 12.
           span  Uso del compresor de anillos e inserción del pistón
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/31.png", alt=" Diagrama del uso del compresor de anillos e inserción del pistón")
+        img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/31.png", alt="En la figura 12, se ilustra el uso del compresor de anillos y la inserción del pistón.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
