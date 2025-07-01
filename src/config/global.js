@@ -3,7 +3,7 @@ export default {
     Name:
       'Funcionamiento del bloque motor: cilindros y alojamientos de pistones',
     Description:
-      'Este componente formativo aborda fundamentos teóricos y prácticos del funcionamiento del bloque motor, cilindros y alojamientos de pistones. Explora su estructura, materiales, métodos de rectificación y ajuste de holguras, destacando el impacto en rendimiento y durabilidad. Además, analiza camisas secas y húmedas, así como técnicas de mantenimiento',
+      'Este componente formativo aborda fundamentos teóricos y prácticos del funcionamiento del bloque motor, cilindros y alojamientos de pistones. Explora su estructura, materiales, métodos de rectificación y ajuste de holguras, destacando el impacto en rendimiento y durabilidad. Además, analiza camisas secas y húmedas, así como técnicas de mantenimiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -257,7 +257,7 @@ export default {
     {
       termino: 'Camisa de cilindro',
       significado:
-        'tubos insertados en el bloque para formar la superficie de deslizamiento del pistón',
+        'tubos insertados en el bloque para formar la superficie de deslizamiento del pistón.',
     },
     {
       termino: 'Cilindro',
@@ -292,7 +292,7 @@ export default {
     {
       termino: 'Rectificación',
       significado:
-        'elemento móvil que transforma la combustión en movimiento mecánico dentro del cilindro.',
+        'proceso de mecanizado para restaurar la forma y dimensiones originales del cilindro.',
     },
     {
       termino: 'Sobremedida',
@@ -324,7 +324,7 @@ export default {
     {
       referencia:
         '<strong>ISO.</strong> (2020). ISO 12179: <em>Geometrical product specifications (GPS)—Surface texture: Profile method—Calibration of contact (stylus) instruments.</em>',
-      link: 'https://www.iso.org/standard/72758.html ISO',
+      link: 'https://www.iso.org/standard/72758.html',
     },
     {
       referencia:

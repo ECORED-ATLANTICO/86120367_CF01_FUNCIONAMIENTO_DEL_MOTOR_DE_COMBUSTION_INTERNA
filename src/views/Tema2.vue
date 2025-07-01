@@ -44,6 +44,8 @@
     figure.z-2.mb-4
       img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/4.png", alt="Imagen decorativa")
 
+    h5.z-2 Camisas secas
+
     p.mb-4.mb-lg-5.z-2 La camisa seca es un revestimiento desmontable dentro del cilindro, sin contacto directo con el refrigerante. Protege contra el desgaste, facilita reparaciones y mejora la disipación del calor, asegurando mayor durabilidad y eficiencia en el motor.
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
@@ -71,21 +73,18 @@
           img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/8.png", alt="Imagen decorativa")
 
     .row.justify-content-center.z-2.mb-4
-      .col-lg-10
+      .col-12
+        h5.z-2 Camisa húmeda
         p.mb-0 La camisa húmeda es un revestimiento cilíndrico en contacto directo con el refrigerante, mejorando la disipación de calor. Se instala en el bloque del motor con sellos para evitar fugas y facilitar el mantenimiento.
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-lg-10
+      .col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5.
           span Corte de bloque con camisa húmeda y circulación de refrigerante
         img.d-md-none(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9-mobile.png", alt="Se ilustra un corte de bloque con camisa húmeda y la circulación del refrigerante en su interior.")
         img.d-none.d-md-block(data-aos="fade-up")(src="@/assets/curso/temas/tema2/9.png", alt="Se ilustra un corte de bloque con camisa húmeda y la circulación del refrigerante en su interior.")
 
-    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-lg-8
-        img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/10.png", alt="Se ilustra un corte de bloque con camisa húmeda y la circulación del refrigerante en su interior.")
-        figcaption <strong>Fuente:</strong> SENA, 2025.
 
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-lg-8
@@ -165,8 +164,8 @@
         .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Reemplazo de camisas: varía según el tipo 
-            p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150°C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
-            p <strong>En camisas húmedas</strong>, se usan juntas tóricas de EPDM resistentes a 140°C y se aplica un torque de 25-30 Nm en pernos, seguido de una prueba de presión de 2.5 bar para verificar estanqueidad. 
+            p <strong>Las camisas secas</strong> se extraen con herramientas hidráulicas (como el extractor OTC 1122) tras calentar el bloque a 150 °C para facilitar la operación, y se instalan con un ajuste por interferencia de 0.05-0.08 mm (ASTM B94).  
+            p <strong>En camisas húmedas</strong>, se usan juntas tóricas de EPDM resistentes a 140 °C y se aplica un torque de 25-30 Nm en pernos, seguido de una prueba de presión de 2.5 bar para verificar estanqueidad. 
             p.mb-4.mb-lg-0 Es crítico evitar reutilizar sellos o forzar ajustes, ya que esto reduce hasta un 30 % la vida útil del motor (Nguyen et al., 2021). Estos procedimientos, respaldados por normas internacionales, garantizan precisión y confiabilidad en el mantenimiento. 
           .col-10.col-lg-6.col-xl-4
             figure

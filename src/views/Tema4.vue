@@ -66,6 +66,8 @@
               h4.factores-slider__title.mb-4 Biela
             p.mb-4.text-center Transforma el movimiento lineal del pistón en rotación del cigüeñal (Redondo, 2021).
 
+    p.mb-4.mb-lg-5.z-2 El pistón es una pieza fundamental en los motores de combustión interna, su correcto funcionamiento es clave para la potencia, eficiencia y durabilidad del motor.
+
     TabsB.color-acento-botones.z-2.motor-tabs.mb-4.mb-lg-5
       .bg-gray.p-4.py-md-5(titulo="Que es un pistón" :icono="require('@/assets/curso/temas/tema4/8.svg')")
         .row.align-items-center.justify-content-around
@@ -90,7 +92,7 @@
               li <strong>Segmentos o aros</strong>: garantizan el sellado de la cámara de combustión.
               li <strong>Perno de pistón</strong>: conecta el pistón con la biela y permite el movimiento.
               li <strong>Ranuras</strong>: espacios para alojar los segmentos.
-              li <strong>Tapa de Biela</strong>: función principal es sujetar el muñón del cigüeñal, permitiendo el movimiento rotativo de la biela.
+              li <strong>Tapa de biela</strong>: función principal es sujetar el muñón del cigüeñal, permitiendo el movimiento rotativo de la biela.
         
           .col-10.col-md-4
             figure
@@ -124,6 +126,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/15.png', alt='Pistón')
 
+    h5.z-2 Tipos de pistones
     p.mb-4.mb-lg-5.z-2 Existen diversos tipos de pistones, diseñados según la aplicación y el rendimiento del motor. Su clasificación se basa en la forma de la cabeza, el material de fabricación y la presencia de tecnologías avanzadas, como refrigeración interna o recubrimientos especiales. La elección del pistón adecuado influye en la eficiencia, potencia y durabilidad del motor.
 
     .tarjeta.tarjeta--blanca.p-4.pt-5.z-2.mt-5.slider-bg.mb-5
@@ -247,7 +250,7 @@
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 12.
-          span  Uso del compresor de anillos e inserción del pistón
+          span  Diagrama del uso del compresor de anillos e inserción del pistón
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/31.png", alt="En la figura 12, se ilustra el uso del compresor de anillos y la inserción del pistón.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 

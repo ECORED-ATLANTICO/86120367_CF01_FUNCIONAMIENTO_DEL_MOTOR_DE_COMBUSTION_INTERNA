@@ -46,8 +46,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/4.png', alt='Imagen decorativa')(data-aos="fade-up")
 
-    p El bloque de cilindros es la estructura principal de un motor de combustión interna, fabricada generalmente de hierro fundido o aluminio. Su función es albergar los cilindros donde se desplazan los pistones, además de proporcionar soporte para otros componentes como el cigüeñal, el árbol de levas y el sistema de refrigeración.
-    p.mb-4.mb-lg-5 Está diseñado con conductos internos para la circulación del refrigerante y el aceite, evitando el sobrecalentamiento y reduciendo la fricción. Puede tener distintas configuraciones según la disposición de los cilindros, como en línea, en V, lo que influye en el rendimiento y la compactación del motor.
+    p.mb-4.mb-lg-5 El bloque de cilindros es la estructura principal de un motor de combustión interna, fabricada generalmente de hierro fundido o aluminio. Su función es albergar los cilindros donde se desplazan los pistones, además de proporcionar soporte para otros componentes como el cigüeñal, el árbol de levas y el sistema de refrigeración. Está diseñado con conductos internos para la circulación del refrigerante y el aceite, evitando el sobrecalentamiento y reduciendo la fricción. Puede tener distintas configuraciones según la disposición de los cilindros, como en línea, en V, lo que influye en el rendimiento y la compactación del motor.
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-10.col-lg-8

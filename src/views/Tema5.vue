@@ -32,7 +32,7 @@
         .row.z-2.justify-content-center.align-items-center
           .col-lg-6
             h4.mb-4 Alojamiento del eje de levas
-            p El eje de levas se ubica en diferentes partes del motor según su diseño. En motores OHV (<em>Overhead Valve</em>-Valvuas en culata), está dentro del bloque, cerca del cigüeñal. En motores OHC (<em>Overhead Camshaft</em>-árbol de levas en cabeza) y DOHC (<em>Double Overhead Camshaft</em>- doble árbol de levas en cabeza), se encuentra en la culata, sobre las válvulas. Su posición permite controlar la apertura y cierre de las válvulas mediante levas, coordinando el flujo de aire y combustible para la combustión eficiente del motor.
+            p El eje de levas se ubica en diferentes partes del motor según su diseño. En motores OHV (<em>Overhead Valve</em> - Válvulas en culata), está dentro del bloque, cerca del cigüeñal. En motores OHC (<em>Overhead Camshaft</em> - árbol de levas en cabeza) y DOHC (<em>Double Overhead Camshaft</em> - doble árbol de levas en cabeza), se encuentra en la culata, sobre las válvulas. Su posición permite controlar la apertura y cierre de las válvulas mediante levas, coordinando el flujo de aire y combustible para la combustión eficiente del motor.
           .col-10.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema5/3.png', alt='Texto que describa la imagen')
@@ -67,7 +67,7 @@
           .col-md-6
             .tarjetas-rosadas__contenido
               h6.tarjetas-rosadas__title OHC (<em>Overhead Camshaft</em>)
-              p Situado en la culata, actúa directamente sobre las válvulas o mediante balancines cortos. En motores modernos, la configuración DOHC <em>(Double Overhead Camshaft)</em> utiliza dos ejes para una mayor precisión
+              p Situado en la culata, actúa directamente sobre las válvulas o mediante balancines cortos. En motores modernos, la configuración DOHC <em>(Double Overhead Camshaft)</em> utiliza dos ejes para una mayor precisión.
 
       .col-lg-4.d-none.d-lg-block
         figure
@@ -127,7 +127,7 @@
               .col-4
                 img.factores-slider__icon(src='@/assets/curso/temas/tema5/11.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper.mb-3
-              h3.factores-slider__title Instalación del Eje
+              h3.factores-slider__title Instalación del eje
             p.mb-5.mb-0.text-center Se coloca el eje en sus alojamientos, verificando el asentamiento correcto de los cojinetes.
 
           .tarjeta.tarjeta--blanca.p-4.factores-slider__tarjeta.py-lg-5
@@ -192,7 +192,7 @@
               img(src="@/assets/curso/temas/tema5/18.png", alt="Desgaste de cojinetes")
           .crd_hover_txt--body.text-center
             h5.mb-3 Desgaste de cojinetes
-            p.mb-0 un juego excesivo en los cojinetes se asocia a ruidos y a una lubricación deficiente, por lo que su reemplazo es necesario.
+            p.mb-0 Un juego excesivo en los cojinetes se asocia a ruidos y a una lubricación deficiente, por lo que su reemplazo es necesario.
       .col-10.col-md-6.col-lg-3.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img

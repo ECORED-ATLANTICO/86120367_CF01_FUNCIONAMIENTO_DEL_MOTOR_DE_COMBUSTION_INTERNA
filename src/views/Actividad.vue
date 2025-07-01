@@ -21,7 +21,7 @@ export default {
         'Evaluación Integral sobre el funcionamiento del bloque motor: cilindros y pistones.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Comprender el funcionamiento del bloque motor, con un enfoque en los cilindros y alojamientos de los pistones, para optimizar su rendimiento mecánico.',
+        '<b> Objetivo:</b> comprender el funcionamiento del bloque motor, con un enfoque en los cilindros y alojamientos de los pistones, para optimizar su rendimiento mecánico.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -401,7 +401,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Regular la temperatura del motor.adero',
+              texto: 'Regular la temperatura del motor',
               esCorrecta: false,
             },
             {

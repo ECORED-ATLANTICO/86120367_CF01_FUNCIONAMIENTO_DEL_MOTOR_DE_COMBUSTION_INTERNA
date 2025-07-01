@@ -148,7 +148,7 @@
       .col-lg-9
         h3(data-aos='zoom-in-right').mb-4.z-2
           span.motor-title.motor-title--small Desmontaje y evaluación inicial
-        p Antes de cualquier intervención, se debe desmontar cuidadosamente el bloque del motor y realizar una limpieza exhaustiva de la zona de los cilindros. Esta etapa inicial es fundamental para una correcta evaluación del estado de los cilindros (Procedimiento de rectificación, sf).
+        p Antes de cualquier intervención, se debe desmontar cuidadosamente el bloque del motor y realizar una limpieza exhaustiva de la zona de los cilindros. Esta etapa inicial es fundamental para una correcta evaluación del estado de los cilindros (procedimiento de rectificación, sf).
 
     .row.justify-content-center.align-items-stretch.z-2.mb-4.mb-lg-5
       .col-sm-6.col-lg-5.col-xl-4.mb-4
@@ -268,7 +268,8 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-lg-7
-        p.mb-lg-0 La rectificación es un proceso mecánico que consiste en restaurar las superficies de las piezas del motor que han sufrido desgaste o deformación debido al uso. Se realiza en componentes clave como los cilindros, el cigüeñal, la culata y las válvulas. Este proceso sirve para recupera la geometría original de las piezas del motor; elimina deformaciones y desgastes, permitiendo un mejor sellado y ajuste; mejora la eficiencia y el rendimiento del motor, reduciendo el consumo de aceite y combustible; y por último prolonga la vida útil del motor al devolverle sus especificaciones originales.
+        h5 Procedimiento de rectificación
+        p.mb-lg-0 La rectificación es un proceso mecánico que consiste en restaurar las superficies de las piezas del motor que han sufrido desgaste o deformación debido al uso. Se realiza en componentes clave como los cilindros, el cigüeñal, la culata y las válvulas. Este proceso sirve para recuperar la geometría original de las piezas del motor; elimina deformaciones y desgastes, permitiendo un mejor sellado y ajuste; mejora la eficiencia y el rendimiento del motor, reduciendo el consumo de aceite y combustible; y por último prolonga la vida útil del motor al devolverle sus especificaciones originales.
       .col-lg-5.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema3/24.png', alt='Ilustración decorativa')
