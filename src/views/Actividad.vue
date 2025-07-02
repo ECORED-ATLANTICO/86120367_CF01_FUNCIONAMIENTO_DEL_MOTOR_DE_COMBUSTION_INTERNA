@@ -401,7 +401,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Regular la temperatura del motor',
+              texto: 'Regular la temperatura del motor.',
               esCorrecta: false,
             },
             {

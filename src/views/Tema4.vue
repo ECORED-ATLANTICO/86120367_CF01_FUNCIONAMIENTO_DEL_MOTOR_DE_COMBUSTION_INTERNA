@@ -66,6 +66,7 @@
               h4.factores-slider__title.mb-4 Biela
             p.mb-4.text-center Transforma el movimiento lineal del pistón en rotación del cigüeñal (Redondo, 2021).
 
+    h5.z-2 El pistón
     p.mb-4.mb-lg-5.z-2 El pistón es una pieza fundamental en los motores de combustión interna, su correcto funcionamiento es clave para la potencia, eficiencia y durabilidad del motor.
 
     TabsB.color-acento-botones.z-2.motor-tabs.mb-4.mb-lg-5
@@ -250,7 +251,7 @@
       .col-10.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 12.
-          span  Diagrama del uso del compresor de anillos e inserción del pistón
+          span  Uso del compresor de anillos e inserción del pistón
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema4/31.png", alt="En la figura 12, se ilustra el uso del compresor de anillos y la inserción del pistón.")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 

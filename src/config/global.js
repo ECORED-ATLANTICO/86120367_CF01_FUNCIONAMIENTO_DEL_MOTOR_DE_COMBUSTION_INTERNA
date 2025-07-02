@@ -336,6 +336,11 @@ export default {
         '<strong>ASTM International</strong>. (2019). ASTM B94-19: <em>Standard specification for copper-alloy die castings.</em> ASTM.',
       link: '',
     },
+    {
+      referencia:
+        '<strong>Redondo, L.</strong> (2021). Diseño y análisis de componentes críticos en motores: Pistones y bielas. Ingeniería Mecánica Aplicada, 15(3), 45-62.',
+      link: '',
+    },
   ],
   creditos: [
     {
